@@ -1,2 +1,1 @@
-# crud-table
-CRUD JavaScript Table
+# CRUD JavaScript Table
