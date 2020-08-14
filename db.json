@@ -1,9 +1,8106 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "spells": [
+    {
+      "name": "Tsunami",
+      "class": {
+        "Druid": "yes"
+      },
+      "concentration": "yes",
+      "time": "1 minute",
+      "components": "VS",
+      "range": "Sight",
+      "duration": "up to 6 rounds",
+      "ritual": "no",
+      "source": "phb 284",
+      "school": "Conjuration",
+      "level": "8th",
+      "id": "0"
+    },
+    {
+      "source": "phb 263",
+      "duration": "24 hours",
+      "ritual": "no",
+      "name": "Nystul's Magic Aura",
+      "level": "2nd",
+      "class": {
+        "Wizard": "yes"
+      },
+      "school": "Illusion",
+      "concentration": "no",
+      "time": "1 action",
+      "range": "Touch",
+      "components": "VSM",
+      "id": "1"
+    },
+    {
+      "range": "Touch",
+      "components": "VSMgp",
+      "concentration": "no",
+      "time": "1 minute",
+      "level": "7th",
+      "name": "Symbol",
+      "school": "Abjuration",
+      "class": {
+        "Bard": "yes",
+        "Cleric": "yes",
+        "Wizard": "yes"
+      },
+      "source": "phb 280",
+      "ritual": "no",
+      "duration": "Until dispelled",
+      "id": "2"
+    },
+    {
+      "source": "phb 250",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "name": "Hellish Rebuke",
+      "level": "1st",
+      "class": {
+        "Warlock": "yes"
+      },
+      "school": "Evocation",
+      "time": "1 reaction",
+      "concentration": "no",
+      "range": "60 feet",
+      "components": "VS",
+      "id": "3"
+    },
+    {
+      "class": {
+        "Paladin": "yes"
+      },
+      "school": "Abjuration",
+      "level": "4th",
+      "name": "Aura of Purity",
+      "ritual": "no",
+      "duration": "up to 10 minutes",
+      "source": "phb 216",
+      "components": "V",
+      "range": "Self",
+      "time": "1 action",
+      "concentration": "yes",
+      "id": "4"
+    },
+    {
+      "time": "1 action",
+      "concentration": "no",
+      "components": "V",
+      "range": "10 feet",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "phb 281",
+      "class": {
+        "Bard": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Conjuration",
+      "name": "Teleport",
+      "level": "7th",
+      "id": "5"
+    },
+    {
+      "range": "120 feet",
+      "components": "VS",
+      "time": "1 action",
+      "concentration": "no",
+      "level": "5th",
+      "name": "Synaptic Static",
+      "class": {
+        "Sorcerer": "yes",
+        "Warlock": "yes",
+        "Wizard": "yes",
+        "Bard": "yes"
+      },
+      "school": "Enchantment",
+      "source": "xge 167",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "id": "6"
+    },
+    {
+      "source": "xge 167",
+      "duration": "1 hour",
+      "ritual": "no",
+      "name": "Summon Lesser Demons",
+      "level": "3rd",
+      "class": {
+        "Wizard": "yes",
+        "Warlock": "yes"
+      },
+      "school": "Conjuration",
+      "time": "1 action",
+      "concentration": "yes",
+      "range": "60 feet",
+      "components": "VSM",
+      "id": "7"
+    },
+    {
+      "class": {
+        "Paladin": "yes"
+      },
+      "school": "Abjuration",
+      "level": "5th",
+      "name": "Circle of Power",
+      "ritual": "no",
+      "duration": "up to 10 minutes",
+      "source": "phb 221",
+      "components": "V",
+      "range": "Self",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "8"
+    },
+    {
+      "range": "Touch",
+      "components": "VSMgp",
+      "concentration": "no",
+      "time": "1 action",
+      "level": "6th",
+      "name": "True Seeing",
+      "class": {
+        "Bard": "yes",
+        "Warlock": "yes",
+        "Cleric": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Divination",
+      "source": "phb 284",
+      "ritual": "no",
+      "duration": "1 hour",
+      "id": "9"
+    },
+    {
+      "source": "ee 20, xge 160",
+      "duration": "1 minute",
+      "ritual": "no",
+      "name": "Magic Stone",
+      "level": "Cantrip",
+      "class": {
+        "Druid": "yes",
+        "Artificer": "yes",
+        "Warlock": "yes"
+      },
+      "school": "Transmutation",
+      "time": "1 bonus action",
+      "concentration": "no",
+      "range": "Touch",
+      "components": "VS",
+      "id": "10"
+    },
+    {
+      "time": "1 minute",
+      "concentration": "no",
+      "components": "VSM",
+      "range": "Special",
+      "duration": "8 hours",
+      "ritual": "no",
+      "source": "phb 236",
+      "class": {
+        "Bard": "yes",
+        "Warlock": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Illusion",
+      "name": "Dream",
+      "level": "5th",
+      "id": "11"
+    },
+    {
+      "time": "1 action",
+      "concentration": "no",
+      "range": "Touch",
+      "components": "VSMgp",
+      "source": "phb 287",
+      "ritual": "no",
+      "duration": "1 hour",
+      "level": "2nd",
+      "name": "Warding Bond",
+      "class": {
+        "Cleric": "yes"
+      },
+      "school": "Abjuration",
+      "id": "12"
+    },
+    {
+      "range": "30 feet",
+      "components": "VS",
+      "concentration": "yes",
+      "time": "1 action",
+      "level": "8th",
+      "name": "Animal Shapes",
+      "school": "Transmutation",
+      "class": {
+        "Druid": "yes"
+      },
+      "source": "phb 212",
+      "ritual": "no",
+      "duration": "up to 24 hours",
+      "id": "13"
+    },
+    {
+      "components": "VSM",
+      "range": "30 feet",
+      "time": "1 action",
+      "concentration": "no",
+      "school": "Conjuration",
+      "class": {
+        "Wizard": "yes"
+      },
+      "name": "Tenser's Floating Disk",
+      "level": "1st",
+      "duration": "1 hour",
+      "ritual": "yes",
+      "source": "phb 282",
+      "id": "14"
+    },
+    {
+      "school": "Necromancy",
+      "class": {
+        "Wizard": "yes",
+        "Cleric": "yes",
+        "Warlock": "yes"
+      },
+      "name": "Toll the Dead",
+      "level": "Cantrip",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "xge 169",
+      "components": "VS",
+      "range": "60 feet",
+      "concentration": "no",
+      "time": "1 action",
+      "id": "15"
+    },
+    {
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "ee 22, xge 168",
+      "class": {
+        "Sorcerer": "yes",
+        "Druid": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Conjuration",
+      "name": "Tidal Wave",
+      "level": "3rd",
+      "time": "1 action",
+      "concentration": "no",
+      "components": "VSM",
+      "range": "120 feet",
+      "id": "16"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 action",
+      "range": "Touch",
+      "components": "VSM",
+      "source": "phb 277",
+      "duration": "up to 1 hour",
+      "ritual": "no",
+      "name": "Spider Climb",
+      "level": "2nd",
+      "school": "Transmutation",
+      "class": {
+        "Wizard": "yes",
+        "Warlock": "yes",
+        "Artificer": "yes",
+        "Sorcerer": "yes"
+      },
+      "id": "17"
+    },
+    {
+      "duration": "1 hour",
+      "ritual": "no",
+      "source": "phb 267",
+      "class": {
+        "Sorcerer": "yes",
+        "Warlock": "yes",
+        "Artificer": "yes",
+        "Wizard": "yes",
+        "Bard": "yes"
+      },
+      "school": "Transmutation",
+      "name": "Prestidigitation",
+      "level": "Cantrip",
+      "time": "1 action",
+      "concentration": "no",
+      "components": "VS",
+      "range": "10 feet",
+      "id": "18"
+    },
+    {
+      "class": {
+        "Bard": "yes",
+        "Warlock": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Illusion",
+      "level": "3rd",
+      "name": "Hypnotic Pattern",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "source": "phb 252",
+      "components": "SM",
+      "range": "120 feet",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "19"
+    },
+    {
+      "school": "Transmutation",
+      "class": {
+        "Wizard": "yes"
+      },
+      "name": "Passwall",
+      "level": "5th",
+      "duration": "1 hour",
+      "ritual": "no",
+      "source": "phb 264",
+      "components": "VSM",
+      "range": "30 feet",
+      "concentration": "no",
+      "time": "1 action",
+      "id": "20"
+    },
+    {
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "phb 254",
+      "school": "Conjuration",
+      "class": {
+        "Artificer": "yes",
+        "Wizard": "yes"
+      },
+      "name": "Leomund's Secret Chest",
+      "level": "4th",
+      "concentration": "no",
+      "time": "1 action",
+      "components": "VSMgp",
+      "range": "Touch",
+      "id": "21"
+    },
+    {
+      "level": "2nd",
+      "name": "Barkskin",
+      "class": {
+        "Druid": "yes",
+        "Ranger": "yes"
+      },
+      "school": "Transmutation",
+      "source": "phb 217",
+      "ritual": "no",
+      "duration": "up to 1 hour",
+      "range": "Touch",
+      "components": "VSM",
+      "time": "1 action",
+      "concentration": "yes",
+      "id": "22"
+    },
+    {
+      "time": "1 action",
+      "concentration": "no",
+      "range": "Self",
+      "components": "VSM",
+      "source": "phb 255",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "level": "3rd",
+      "name": "Lightning Bolt",
+      "school": "Evocation",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "id": "23"
+    },
+    {
+      "range": "30 feet",
+      "components": "VSM",
+      "time": "1 minute",
+      "concentration": "no",
+      "name": "Wind Walk",
+      "level": "6th",
+      "school": "Transmutation",
+      "class": {
+        "Druid": "yes"
+      },
+      "source": "phb 288",
+      "duration": "8 hours",
+      "ritual": "no",
+      "id": "24"
+    },
+    {
+      "ritual": "no",
+      "duration": "1 minute",
+      "source": "ee 16, xge 152",
+      "school": "Conjuration",
+      "class": {
+        "Sorcerer": "yes",
+        "Warlock": "yes",
+        "Artificer": "yes",
+        "Druid": "yes",
+        "Wizard": "yes"
+      },
+      "level": "Cantrip",
+      "name": "Create Bonfire",
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "VS",
+      "range": "60 feet",
+      "id": "25"
+    },
+    {
+      "components": "VS",
+      "range": "120 feet",
+      "time": "1 action",
+      "concentration": "no",
+      "class": {
+        "Druid": "yes"
+      },
+      "school": "Transmutation",
+      "name": "Bones of the Earth",
+      "level": "6th",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "ee 15, xge 150",
+      "id": "26"
+    },
+    {
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 278",
+      "class": {
+        "Paladin": "yes"
+      },
+      "school": "Evocation",
+      "name": "Staggering Smite",
+      "level": "4th",
+      "time": "1 bonus action",
+      "concentration": "yes",
+      "components": "V",
+      "range": "Self",
+      "id": "27"
+    },
+    {
+      "range": "150 feet",
+      "components": "VS",
+      "concentration": "no",
+      "time": "1 action",
+      "name": "Fire Storm",
+      "level": "7th",
+      "school": "Evocation",
+      "class": {
+        "Druid": "yes",
+        "Sorcerer": "yes",
+        "Cleric": "yes"
+      },
+      "source": "phb 242",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "id": "28"
+    },
+    {
+      "concentration": "no",
+      "time": "1 hour",
+      "components": "VSMgp",
+      "range": "Touch",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "phb 272",
+      "class": {
+        "Cleric": "yes",
+        "Bard": "yes"
+      },
+      "school": "Necromancy",
+      "level": "7th",
+      "name": "Resurrection",
+      "id": "29"
+    },
+    {
+      "duration": "1 minute",
+      "ritual": "no",
+      "source": "xge 155",
+      "class": {
+        "Wizard": "yes",
+        "Warlock": "yes",
+        "Sorcerer": "yes",
+        "Bard": "yes"
+      },
+      "school": "Enchantment",
+      "name": "Enemies Abound",
+      "level": "3rd",
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "VS",
+      "range": "120 feet",
+      "id": "30"
+    },
+    {
+      "ritual": "no",
+      "duration": "8 hours",
+      "source": "phb 238",
+      "class": {
+        "Warlock": "yes",
+        "Cleric": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes",
+        "Bard": "yes"
+      },
+      "school": "Transmutation",
+      "level": "7th",
+      "name": "Etherealness",
+      "concentration": "no",
+      "time": "1 action",
+      "components": "VS",
+      "range": "Self",
+      "id": "31"
+    },
+    {
+      "school": "Enchantment",
+      "class": {
+        "Sorcerer": "yes",
+        "Druid": "yes",
+        "Wizard": "yes",
+        "Bard": "yes"
+      },
+      "name": "Confusion",
+      "level": "4th",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 224",
+      "components": "VSM",
+      "range": "90 feet",
+      "time": "1 action",
+      "concentration": "yes",
+      "id": "32"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "range": "150 feet",
+      "components": "VM",
+      "source": "xge 160",
+      "duration": "10 minutes",
+      "ritual": "no",
+      "name": "Maddening Darkness",
+      "level": "8th",
+      "school": "Evocation",
+      "class": {
+        "Warlock": "yes",
+        "Wizard": "yes"
+      },
+      "id": "33"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 action",
+      "range": "90 feet",
+      "components": "VS",
+      "source": "ee 17, xge 155",
+      "ritual": "no",
+      "duration": "1 minute",
+      "level": "4th",
+      "name": "Elemental Bane",
+      "school": "Transmutation",
+      "class": {
+        "Warlock": "yes",
+        "Artificer": "yes",
+        "Druid": "yes",
+        "Wizard": "yes"
+      },
+      "id": "34"
+    },
+    {
+      "name": "True Polymorph",
+      "level": "9th",
+      "school": "Transmutation",
+      "class": {
+        "Warlock": "yes",
+        "Wizard": "yes",
+        "Bard": "yes"
+      },
+      "source": "phb 283",
+      "duration": "up to 1 hour",
+      "ritual": "no",
+      "range": "30 feet",
+      "components": "VSM",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "35"
+    },
+    {
+      "duration": "Until dispelled",
+      "ritual": "yes",
+      "source": "phb 235",
+      "school": "Conjuration",
+      "class": {
+        "Wizard": "yes"
+      },
+      "name": "Drawmij's Instant Summons",
+      "level": "6th",
+      "time": "1 minute",
+      "concentration": "no",
+      "components": "VSMgp",
+      "range": "Touch",
+      "id": "36"
+    },
+    {
+      "class": {
+        "Sorcerer": "yes",
+        "Druid": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Transmutation",
+      "level": "Cantrip",
+      "name": "Shape Water",
+      "ritual": "no",
+      "duration": "1 hour",
+      "source": "ee 21",
+      "components": "S",
+      "range": "30 feet",
+      "concentration": "no",
+      "time": "1 action",
+      "id": "37"
+    },
+    {
+      "range": "Touch",
+      "components": "VS",
+      "concentration": "yes",
+      "time": "1 action",
+      "level": "Cantrip",
+      "name": "Guidance",
+      "class": {
+        "Druid": "yes",
+        "Artificer": "yes",
+        "Cleric": "yes"
+      },
+      "school": "Divination",
+      "source": "phb 248",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "id": "38"
+    },
+    {
+      "class": {
+        "Druid": "yes"
+      },
+      "school": "Abjuration",
+      "level": "5th",
+      "name": "Antilife Shell",
+      "ritual": "no",
+      "duration": "up to 1 hour",
+      "source": "phb 213",
+      "components": "VS",
+      "range": "Self",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "39"
+    },
+    {
+      "components": "VS",
+      "range": "60 feet",
+      "time": "1 action",
+      "concentration": "no",
+      "class": {
+        "Wizard": "yes"
+      },
+      "school": "Abjuration",
+      "name": "Prismatic Wall",
+      "level": "9th",
+      "duration": "10 minutes",
+      "ritual": "no",
+      "source": "phb 267",
+      "id": "40"
+    },
+    {
+      "duration": "Instantaneous",
+      "ritual": "yes",
+      "source": "phb 215",
+      "school": "Divination",
+      "class": {
+        "Cleric": "yes"
+      },
+      "name": "Augury",
+      "level": "2nd",
+      "concentration": "no",
+      "time": "1 minute",
+      "components": "VSMgp",
+      "range": "Self",
+      "id": "41"
+    },
+    {
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "phb 273",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Evocation",
+      "level": "2nd",
+      "name": "Scorching Ray",
+      "concentration": "no",
+      "time": "1 action",
+      "components": "VS",
+      "range": "120 feet",
+      "id": "42"
+    },
+    {
+      "name": "Harm",
+      "level": "6th",
+      "school": "Necromancy",
+      "class": {
+        "Cleric": "yes"
+      },
+      "source": "phb 249",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "range": "60 feet",
+      "components": "VS",
+      "concentration": "no",
+      "time": "1 action",
+      "id": "43"
+    },
+    {
+      "source": "phb 231",
+      "ritual": "no",
+      "duration": "1 hour",
+      "level": "8th",
+      "name": "Demiplane",
+      "school": "Conjuration",
+      "class": {
+        "Wizard": "yes",
+        "Warlock": "yes"
+      },
+      "concentration": "no",
+      "time": "1 action",
+      "range": "60 feet",
+      "components": "S",
+      "id": "44"
+    },
+    {
+      "duration": "24 hours",
+      "ritual": "no",
+      "source": "phb 259",
+      "class": {
+        "Bard": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Abjuration",
+      "name": "Mind Blank",
+      "level": "8th",
+      "concentration": "no",
+      "time": "1 action",
+      "components": "VS",
+      "range": "Touch",
+      "id": "45"
+    },
+    {
+      "class": {
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Evocation",
+      "level": "5th",
+      "name": "Cone of Cold",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "phb 224",
+      "components": "VSM",
+      "range": "Self",
+      "time": "1 action",
+      "concentration": "no",
+      "id": "46"
+    },
+    {
+      "time": "1 action",
+      "concentration": "no",
+      "range": "30 feet",
+      "components": "VSM",
+      "source": "phb 270",
+      "duration": "1 hour",
+      "ritual": "yes",
+      "name": "Rary's Telepathic Bond",
+      "level": "5th",
+      "school": "Divination",
+      "class": {
+        "Wizard": "yes"
+      },
+      "id": "47"
+    },
+    {
+      "source": "phb 287",
+      "duration": "up to 10 minutes",
+      "ritual": "no",
+      "name": "Wall of Thorns",
+      "level": "6th",
+      "school": "Conjuration",
+      "class": {
+        "Druid": "yes"
+      },
+      "time": "1 action",
+      "concentration": "yes",
+      "range": "120 feet",
+      "components": "VSM",
+      "id": "48"
+    },
+    {
+      "components": "VSM",
+      "range": "Self",
+      "concentration": "no",
+      "time": "1 action",
+      "school": "Evocation",
+      "class": {
+        "Wizard": "yes"
+      },
+      "level": "4th",
+      "name": "Fire Shield",
+      "ritual": "no",
+      "duration": "10 minutes",
+      "source": "phb 242",
+      "id": "49"
+    },
+    {
+      "name": "Evard's Black Tentacles",
+      "level": "4th",
+      "school": "Conjuration",
+      "class": {
+        "Wizard": "yes"
+      },
+      "source": "phb 238",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "range": "90 feet",
+      "components": "VSM",
+      "time": "1 action",
+      "concentration": "yes",
+      "id": "50"
+    },
+    {
+      "time": "1 action",
+      "concentration": "no",
+      "components": "VS",
+      "range": "Touch",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "phb 266",
+      "school": "Evocation",
+      "class": {
+        "Bard": "yes"
+      },
+      "level": "9th",
+      "name": "Power Word Heal",
+      "id": "51"
+    },
+    {
+      "range": "60 feet",
+      "components": "VSM",
+      "concentration": "yes",
+      "time": "1 action",
+      "name": "Cloud of Daggers",
+      "level": "2nd",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Warlock": "yes",
+        "Bard": "yes"
+      },
+      "school": "Conjuration",
+      "source": "phb 222",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "id": "52"
+    },
+    {
+      "source": "ee 20, xge 160",
+      "ritual": "no",
+      "duration": "1 minute",
+      "level": "5th",
+      "name": "Maelstrom",
+      "class": {
+        "Druid": "yes"
+      },
+      "school": "Evocation",
+      "concentration": "yes",
+      "time": "1 action",
+      "range": "120 feet",
+      "components": "VSM",
+      "id": "53"
+    },
+    {
+      "source": "phb 250",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "name": "Heat Metal",
+      "level": "2nd",
+      "class": {
+        "Druid": "yes",
+        "Artificer": "yes",
+        "Bard": "yes"
+      },
+      "school": "Transmutation",
+      "time": "1 action",
+      "concentration": "yes",
+      "range": "60 feet",
+      "components": "VSM",
+      "id": "54"
+    },
+    {
+      "class": {
+        "Druid": "yes"
+      },
+      "school": "Evocation",
+      "name": "Flame Blade",
+      "level": "2nd",
+      "duration": "up to 10 minutes",
+      "ritual": "no",
+      "source": "phb 242",
+      "components": "VSM",
+      "range": "Self",
+      "concentration": "yes",
+      "time": "1 bonus action",
+      "id": "55"
+    },
+    {
+      "range": "150 feet",
+      "components": "VSM",
+      "time": "1 action",
+      "concentration": "yes",
+      "name": "Delayed Blast Fireball",
+      "level": "7th",
+      "school": "Evocation",
+      "class": {
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "source": "phb 230",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "id": "56"
+    },
+    {
+      "ritual": "no",
+      "duration": "1 round",
+      "source": "phb 259",
+      "school": "Transmutation",
+      "class": {
+        "Bard": "yes",
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Artificer": "yes"
+      },
+      "level": "Cantrip",
+      "name": "Message",
+      "concentration": "no",
+      "time": "1 action",
+      "components": "VSM",
+      "range": "120 feet",
+      "id": "57"
+    },
+    {
+      "class": {
+        "Ranger": "yes",
+        "Druid": "yes"
+      },
+      "school": "Transmutation",
+      "name": "Guardian of Nature",
+      "level": "4th",
+      "duration": "1 minute",
+      "ritual": "no",
+      "source": "xge 157",
+      "components": "V",
+      "range": "Self",
+      "time": "1 bonus action",
+      "concentration": "yes",
+      "id": "58"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "range": "Touch",
+      "components": "VM",
+      "source": "phb 255",
+      "duration": "1 hour",
+      "ritual": "no",
+      "name": "Light",
+      "level": "Cantrip",
+      "class": {
+        "Bard": "yes",
+        "Sorcerer": "yes",
+        "Cleric": "yes",
+        "Artificer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Evocation",
+      "id": "59"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "VSMgp",
+      "range": "Self",
+      "duration": "10 minutes",
+      "ritual": "no",
+      "source": "xge 160",
+      "class": {
+        "Wizard": "yes"
+      },
+      "school": "Abjuration",
+      "name": "Invulnerability",
+      "level": "9th",
+      "id": "60"
+    },
+    {
+      "class": {
+        "Druid": "yes",
+        "Cleric": "yes",
+        "Artificer": "yes",
+        "Bard": "yes",
+        "Ranger": "yes"
+      },
+      "school": "Abjuration",
+      "name": "Freedom of Movement",
+      "level": "4th",
+      "duration": "1 hour",
+      "ritual": "no",
+      "source": "phb 244",
+      "components": "VSM",
+      "range": "Touch",
+      "time": "1 action",
+      "concentration": "no",
+      "id": "61"
+    },
+    {
+      "time": "10 minutes",
+      "concentration": "no",
+      "range": "30 feet",
+      "components": "V",
+      "source": "phb 267",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "name": "Prayer of Healing",
+      "level": "2nd",
+      "class": {
+        "Cleric": "yes"
+      },
+      "school": "Evocation",
+      "id": "62"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 action",
+      "components": "VSM",
+      "range": "Self",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 245",
+      "class": {
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Abjuration",
+      "name": "Globe of Invulnerability",
+      "level": "6th",
+      "id": "63"
+    },
+    {
+      "source": "ee 17, xge 155",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "name": "Erupting Earth",
+      "level": "3rd",
+      "school": "Transmutation",
+      "class": {
+        "Wizard": "yes",
+        "Druid": "yes",
+        "Sorcerer": "yes"
+      },
+      "concentration": "no",
+      "time": "1 action",
+      "range": "120 feet",
+      "components": "VSM",
+      "id": "64"
+    },
+    {
+      "name": "Wish",
+      "level": "9th",
+      "class": {
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Conjuration",
+      "source": "phb 288",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "range": "Self",
+      "components": "V",
+      "concentration": "no",
+      "time": "1 action",
+      "id": "65"
+    },
+    {
+      "name": "Disintegrate",
+      "level": "6th",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Transmutation",
+      "source": "phb 233",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "range": "60 feet",
+      "components": "VSM",
+      "time": "1 action",
+      "concentration": "no",
+      "id": "66"
+    },
+    {
+      "source": "phb 275",
+      "ritual": "no",
+      "duration": "1 minute",
+      "level": "Cantrip",
+      "name": "Shillelagh",
+      "class": {
+        "Druid": "yes"
+      },
+      "school": "Transmutation",
+      "concentration": "no",
+      "time": "1 bonus action",
+      "range": "Touch",
+      "components": "VSM",
+      "id": "67"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 action",
+      "components": "VSM",
+      "range": "500 feet",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "source": "phb 236",
+      "school": "Evocation",
+      "class": {
+        "Sorcerer": "yes",
+        "Cleric": "yes",
+        "Druid": "yes"
+      },
+      "level": "8th",
+      "name": "Earthquake",
+      "id": "68"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 action",
+      "range": "30 feet",
+      "components": "VSM",
+      "source": "phb 219",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "name": "Bless",
+      "level": "1st",
+      "class": {
+        "Paladin": "yes",
+        "Cleric": "yes"
+      },
+      "school": "Enchantment",
+      "id": "69"
+    },
+    {
+      "name": "Blinding Smite",
+      "level": "3rd",
+      "school": "Evocation",
+      "class": {
+        "Paladin": "yes"
+      },
+      "source": "phb 219",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "range": "Self",
+      "components": "V",
+      "concentration": "yes",
+      "time": "1 bonus action",
+      "id": "70"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "components": "VSM",
+      "range": "30 feet",
+      "duration": "24 hours",
+      "ritual": "yes",
+      "source": "phb 212",
+      "class": {
+        "Ranger": "yes",
+        "Bard": "yes",
+        "Druid": "yes"
+      },
+      "school": "Enchantment",
+      "name": "Animal Messenger",
+      "level": "2nd",
+      "id": "71"
+    },
+    {
+      "level": "6th",
+      "name": "Magic Jar",
+      "school": "Necromancy",
+      "class": {
+        "Wizard": "yes"
+      },
+      "source": "phb 257",
+      "ritual": "no",
+      "duration": "Until dispelled",
+      "range": "Self",
+      "components": "VSMgp",
+      "concentration": "no",
+      "time": "1 minute",
+      "id": "72"
+    },
+    {
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 234",
+      "school": "Evocation",
+      "class": {
+        "Paladin": "yes"
+      },
+      "name": "Divine Favor",
+      "level": "1st",
+      "concentration": "yes",
+      "time": "1 bonus action",
+      "components": "VS",
+      "range": "Self",
+      "id": "73"
+    },
+    {
+      "school": "Evocation",
+      "class": {
+        "Wizard": "yes"
+      },
+      "name": "Melf's Acid Arrow",
+      "level": "2nd",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "phb 259",
+      "components": "VSM",
+      "range": "90 feet",
+      "time": "1 action",
+      "concentration": "no",
+      "id": "74"
+    },
+    {
+      "concentration": "no",
+      "time": "1 reaction",
+      "components": "S",
+      "range": "60 feet",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "phb 228",
+      "class": {
+        "Warlock": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Abjuration",
+      "level": "3rd",
+      "name": "Counterspell",
+      "id": "75"
+    },
+    {
+      "source": "phb 278",
+      "duration": "1 minute",
+      "ritual": "no",
+      "name": "Spiritual Weapon",
+      "level": "2nd",
+      "class": {
+        "Cleric": "yes"
+      },
+      "school": "Evocation",
+      "concentration": "no",
+      "time": "1 bonus action",
+      "range": "60 feet",
+      "components": "VS",
+      "id": "76"
+    },
+    {
+      "time": "1 minute",
+      "concentration": "no",
+      "range": "1 mile",
+      "components": "VSMgp",
+      "source": "xge 161",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "name": "Mighty Fortress",
+      "level": "8th",
+      "school": "Conjuration",
+      "class": {
+        "Wizard": "yes"
+      },
+      "id": "77"
+    },
+    {
+      "source": "xge 156",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "level": "4th",
+      "name": "Find Greater Steed",
+      "class": {
+        "Paladin": "yes"
+      },
+      "school": "Conjuration",
+      "concentration": "no",
+      "time": "10 minutes",
+      "range": "30 feet",
+      "components": "VS",
+      "id": "78"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "components": "VSM",
+      "range": "30 feet",
+      "ritual": "no",
+      "duration": "8 hours",
+      "source": "phb 211",
+      "school": "Abjuration",
+      "class": {
+        "Paladin": "yes",
+        "Artificer": "yes",
+        "Cleric": "yes"
+      },
+      "level": "2nd",
+      "name": "Aid",
+      "id": "79"
+    },
+    {
+      "ritual": "no",
+      "duration": "10 minutes",
+      "source": "ee 15, xge 150",
+      "school": "Divination",
+      "class": {
+        "Druid": "yes",
+        "Ranger": "yes"
+      },
+      "level": "1st",
+      "name": "Beast Bond",
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "VSM",
+      "range": "Touch",
+      "id": "80"
+    },
+    {
+      "school": "Conjuration",
+      "class": {
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "level": "5th",
+      "name": "Cloudkill",
+      "ritual": "no",
+      "duration": "up to 10 minutes",
+      "source": "phb 222",
+      "components": "VS",
+      "range": "120 feet",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "81"
+    },
+    {
+      "level": "3rd",
+      "name": "Fly",
+      "class": {
+        "Wizard": "yes",
+        "Artificer": "yes",
+        "Warlock": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Transmutation",
+      "source": "phb 243",
+      "ritual": "no",
+      "duration": "up to 10 minutes",
+      "range": "Touch",
+      "components": "VSM",
+      "time": "1 action",
+      "concentration": "yes",
+      "id": "82"
+    },
+    {
+      "range": "60 feet",
+      "components": "VS",
+      "time": "10 minutes",
+      "concentration": "no",
+      "name": "Planar Ally",
+      "level": "6th",
+      "class": {
+        "Cleric": "yes"
+      },
+      "school": "Conjuration",
+      "source": "phb 265",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "id": "83"
+    },
+    {
+      "components": "VSM",
+      "range": "30 feet",
+      "concentration": "yes",
+      "time": "1 action",
+      "class": {
+        "Bard": "yes",
+        "Cleric": "yes"
+      },
+      "school": "Enchantment",
+      "level": "1st",
+      "name": "Bane",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "source": "phb 216",
+      "id": "84"
+    },
+    {
+      "components": "VS",
+      "range": "30 feet",
+      "concentration": "no",
+      "time": "1 action",
+      "class": {
+        "Sorcerer": "yes",
+        "Wizard": "yes",
+        "Bard": "yes"
+      },
+      "school": "Illusion",
+      "level": "5th",
+      "name": "Seeming",
+      "ritual": "no",
+      "duration": "8 hours",
+      "source": "phb 274",
+      "id": "85"
+    },
+    {
+      "duration": "1 minute",
+      "ritual": "no",
+      "source": "xge 153",
+      "school": "Evocation",
+      "class": {
+        "Cleric": "yes",
+        "Wizard": "yes"
+      },
+      "name": "Dawn",
+      "level": "5th",
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "VSMgp",
+      "range": "60 feet",
+      "id": "86"
+    },
+    {
+      "time": "1 action",
+      "concentration": "no",
+      "components": "VSM",
+      "range": "300 feet",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "phb 252",
+      "class": {
+        "Sorcerer": "yes",
+        "Druid": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Evocation",
+      "level": "4th",
+      "name": "Ice Storm",
+      "id": "87"
+    },
+    {
+      "source": "phb 278",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "level": "3rd",
+      "name": "Stinking Cloud",
+      "school": "Conjuration",
+      "class": {
+        "Bard": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "concentration": "yes",
+      "time": "1 action",
+      "range": "90 feet",
+      "components": "VSM",
+      "id": "88"
+    },
+    {
+      "range": "60 feet",
+      "components": "V",
+      "concentration": "no",
+      "time": "1 bonus action",
+      "level": "1st",
+      "name": "Healing Word",
+      "school": "Evocation",
+      "class": {
+        "Cleric": "yes",
+        "Druid": "yes",
+        "Bard": "yes"
+      },
+      "source": "phb 250",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "id": "89"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "components": "VSM",
+      "range": "10 feet",
+      "duration": "10 minutes",
+      "ritual": "no",
+      "source": "phb 277",
+      "school": "Necromancy",
+      "class": {
+        "Cleric": "yes",
+        "Bard": "yes"
+      },
+      "name": "Speak with Dead",
+      "level": "3rd",
+      "id": "90"
+    },
+    {
+      "range": "30 feet",
+      "components": "VM",
+      "time": "1 action",
+      "concentration": "yes",
+      "level": "2nd",
+      "name": "Suggestion",
+      "school": "Enchantment",
+      "class": {
+        "Warlock": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes",
+        "Bard": "yes"
+      },
+      "source": "phb 279",
+      "ritual": "no",
+      "duration": "up to 8 hours",
+      "id": "91"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 action",
+      "components": "VM",
+      "range": "300 feet",
+      "ritual": "no",
+      "duration": "1 minute",
+      "source": "ee 24, xge 171",
+      "school": "Evocation",
+      "class": {
+        "Druid": "yes",
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "level": "7th",
+      "name": "Whirlwind",
+      "id": "92"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 action",
+      "components": "VSM",
+      "range": "30 feet",
+      "duration": "1 minute",
+      "ritual": "no",
+      "source": "ee 20, xge 161",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Transmutation",
+      "name": "Maximilian's Earthen Grasp",
+      "level": "2nd",
+      "id": "93"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 bonus action",
+      "components": "V",
+      "range": "30 feet",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "source": "phb 224",
+      "class": {
+        "Paladin": "yes"
+      },
+      "school": "Enchantment",
+      "level": "1st",
+      "name": "Compelled Duel",
+      "id": "94"
+    },
+    {
+      "class": {
+        "Cleric": "yes",
+        "Wizard": "yes",
+        "Druid": "yes",
+        "Ranger": "yes",
+        "Bard": "yes",
+        "Paladin": "yes"
+      },
+      "school": "Divination",
+      "name": "Locate Creature",
+      "level": "4th",
+      "duration": "up to 1 hour",
+      "ritual": "no",
+      "source": "phb 256",
+      "components": "VSM",
+      "range": "Self",
+      "time": "1 action",
+      "concentration": "yes",
+      "id": "95"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "range": "30 feet",
+      "components": "V",
+      "source": "xge 164",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "name": "Scatter",
+      "level": "6th",
+      "class": {
+        "Wizard": "yes",
+        "Warlock": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Abjuration",
+      "id": "96"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 bonus action",
+      "range": "Self",
+      "components": "VS",
+      "source": "ua",
+      "duration": "up to 1 hour",
+      "ritual": "no",
+      "name": "Arcane Weapon",
+      "level": "1st",
+      "school": "Transmutation",
+      "class": {
+        "Artificer": "yes"
+      },
+      "id": "97"
+    },
+    {
+      "ritual": "no",
+      "duration": "1 minute",
+      "source": "xge 157",
+      "class": {
+        "Wizard": "yes"
+      },
+      "school": "Illusion",
+      "level": "8th",
+      "name": "Illusory Dragon",
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "S",
+      "range": "120 feet",
+      "id": "98"
+    },
+    {
+      "components": "VSM",
+      "range": "Self",
+      "time": "1 action",
+      "concentration": "no",
+      "school": "Conjuration",
+      "class": {
+        "Ranger": "yes"
+      },
+      "level": "3rd",
+      "name": "Conjure Barrage",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "phb 225",
+      "id": "99"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 bonus action",
+      "range": "Self",
+      "components": "V",
+      "source": "phb 219",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "level": "2nd",
+      "name": "Branding Smite",
+      "class": {
+        "Paladin": "yes"
+      },
+      "school": "Evocation",
+      "id": "100"
+    },
+    {
+      "range": "60 feet",
+      "components": "VSM",
+      "time": "1 action",
+      "concentration": "yes",
+      "name": "Dust Devil",
+      "level": "2nd",
+      "class": {
+        "Wizard": "yes",
+        "Druid": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Conjuration",
+      "source": "ee 17, xge 154",
+      "duration": "1 minute",
+      "ritual": "no",
+      "id": "101"
+    },
+    {
+      "level": "2nd",
+      "name": "Magic Weapon",
+      "school": "Transmutation",
+      "class": {
+        "Wizard": "yes",
+        "Artificer": "yes",
+        "Paladin": "yes"
+      },
+      "source": "phb 257",
+      "ritual": "no",
+      "duration": "up to 1 hour",
+      "range": "Touch",
+      "components": "VS",
+      "concentration": "yes",
+      "time": "1 bonus action",
+      "id": "102"
+    },
+    {
+      "components": "VSM",
+      "range": "120 feet",
+      "time": "1 action",
+      "concentration": "yes",
+      "class": {
+        "Ranger": "yes",
+        "Druid": "yes"
+      },
+      "school": "Evocation",
+      "level": "3rd",
+      "name": "Wind Wall",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "source": "phb 288",
+      "id": "103"
+    },
+    {
+      "ritual": "yes",
+      "duration": "Instantaneous",
+      "source": "phb 270",
+      "school": "Transmutation",
+      "class": {
+        "Artificer": "yes",
+        "Cleric": "yes",
+        "Druid": "yes",
+        "Paladin": "yes"
+      },
+      "level": "1st",
+      "name": "Purify Food and Drink",
+      "time": "1 action",
+      "concentration": "no",
+      "components": "VS",
+      "range": "10 feet",
+      "id": "104"
+    },
+    {
+      "range": "Touch",
+      "components": "VS",
+      "concentration": "no",
+      "time": "1 action",
+      "name": "Protection from Poison",
+      "level": "2nd",
+      "school": "Abjuration",
+      "class": {
+        "Druid": "yes",
+        "Artificer": "yes",
+        "Cleric": "yes",
+        "Paladin": "yes",
+        "Ranger": "yes"
+      },
+      "source": "phb 270",
+      "duration": "1 hour",
+      "ritual": "no",
+      "id": "105"
+    },
+    {
+      "source": "phb 215",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "level": "1st",
+      "name": "Arms of Hadar",
+      "class": {
+        "Warlock": "yes"
+      },
+      "school": "Conjuration",
+      "concentration": "no",
+      "time": "1 action",
+      "range": "Self",
+      "components": "VS",
+      "id": "106"
+    },
+    {
+      "time": "1 minute",
+      "concentration": "yes",
+      "components": "VS",
+      "range": "90 feet",
+      "duration": "up to 1 hour",
+      "ritual": "no",
+      "source": "phb 226",
+      "school": "Conjuration",
+      "class": {
+        "Warlock": "yes",
+        "Druid": "yes"
+      },
+      "name": "Conjure Fey",
+      "level": "6th",
+      "id": "107"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "range": "30 feet",
+      "components": "VS",
+      "source": "phb 224",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "name": "Compulsion",
+      "level": "4th",
+      "class": {
+        "Bard": "yes"
+      },
+      "school": "Enchantment",
+      "id": "108"
+    },
+    {
+      "components": "VSMgp",
+      "range": "10 feet",
+      "concentration": "no",
+      "time": "1 minute",
+      "school": "Abjuration",
+      "class": {
+        "Wizard": "yes",
+        "Cleric": "yes",
+        "Warlock": "yes",
+        "Paladin": "yes"
+      },
+      "level": "3rd",
+      "name": "Magic Circle",
+      "ritual": "no",
+      "duration": "1 hour",
+      "source": "phb 256",
+      "id": "109"
+    },
+    {
+      "concentration": "no",
+      "time": "1 reaction",
+      "components": "VS",
+      "range": "Self",
+      "ritual": "no",
+      "duration": "1 round",
+      "source": "phb 275",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Abjuration",
+      "level": "1st",
+      "name": "Shield",
+      "id": "110"
+    },
+    {
+      "range": "Self",
+      "components": "VSM",
+      "concentration": "no",
+      "time": "1 action",
+      "name": "See Invisibility",
+      "level": "2nd",
+      "class": {
+        "Bard": "yes",
+        "Sorcerer": "yes",
+        "Artificer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Divination",
+      "source": "phb 274",
+      "duration": "1 hour",
+      "ritual": "no",
+      "id": "111"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "range": "30 feet",
+      "components": "VS",
+      "source": "phb 217",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "name": "Beacon of Hope",
+      "level": "3rd",
+      "class": {
+        "Cleric": "yes"
+      },
+      "school": "Abjuration",
+      "id": "112"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "range": "Self",
+      "components": "VS",
+      "source": "phb 269",
+      "duration": "10 minutes",
+      "ritual": "no",
+      "name": "Produce Flame",
+      "level": "Cantrip",
+      "school": "Conjuration",
+      "class": {
+        "Druid": "yes"
+      },
+      "id": "113"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "range": "Touch",
+      "components": "VS",
+      "source": "phb 237",
+      "duration": "up to 1 hour",
+      "ritual": "no",
+      "name": "Elemental Weapon",
+      "level": "3rd",
+      "school": "Transmutation",
+      "class": {
+        "Artificer": "yes",
+        "Paladin": "yes"
+      },
+      "id": "114"
+    },
+    {
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "source": "phb 230",
+      "school": "Evocation",
+      "class": {
+        "Paladin": "yes"
+      },
+      "level": "3rd",
+      "name": "Crusader's Mantle",
+      "concentration": "yes",
+      "time": "1 action",
+      "components": "V",
+      "range": "Self",
+      "id": "115"
+    },
+    {
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "xge 166",
+      "class": {
+        "Ranger": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Conjuration",
+      "level": "5th",
+      "name": "Steel Wind Strike",
+      "concentration": "no",
+      "time": "1 action",
+      "components": "SMgp",
+      "range": "30 feet",
+      "id": "116"
+    },
+    {
+      "time": "1 bonus action",
+      "concentration": "yes",
+      "range": "60 feet",
+      "components": "VSM",
+      "source": "phb 275",
+      "ritual": "no",
+      "duration": "up to 10 minutes",
+      "level": "1st",
+      "name": "Shield of Faith",
+      "class": {
+        "Paladin": "yes",
+        "Cleric": "yes"
+      },
+      "school": "Abjuration",
+      "id": "117"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "range": "5 feet",
+      "components": "VM",
+      "source": "xge 171",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "name": "Word of Radiance",
+      "level": "Cantrip",
+      "class": {
+        "Cleric": "yes"
+      },
+      "school": "Evocation",
+      "id": "118"
+    },
+    {
+      "time": "1 action",
+      "concentration": "no",
+      "components": "VS",
+      "range": "120 feet",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "phb 237",
+      "school": "Evocation",
+      "class": {
+        "Warlock": "yes"
+      },
+      "name": "Eldritch Blast",
+      "level": "Cantrip",
+      "id": "119"
+    },
+    {
+      "time": "1 action",
+      "concentration": "no",
+      "range": "120 feet",
+      "components": "VS",
+      "source": "phb 257",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "level": "1st",
+      "name": "Magic Missile",
+      "school": "Evocation",
+      "class": {
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "id": "120"
+    },
+    {
+      "class": {
+        "Warlock": "yes",
+        "Bard": "yes"
+      },
+      "school": "Enchantment",
+      "name": "Enthrall",
+      "level": "2nd",
+      "duration": "1 minute",
+      "ritual": "no",
+      "source": "phb 238",
+      "components": "VS",
+      "range": "60 feet",
+      "concentration": "no",
+      "time": "1 action",
+      "id": "121"
+    },
+    {
+      "name": "Storm of Vengeance",
+      "level": "9th",
+      "class": {
+        "Druid": "yes"
+      },
+      "school": "Conjuration",
+      "source": "phb 279",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "range": "Sight",
+      "components": "VS",
+      "time": "1 action",
+      "concentration": "yes",
+      "id": "122"
+    },
+    {
+      "components": "VS",
+      "range": "120 feet",
+      "time": "1 action",
+      "concentration": "no",
+      "class": {
+        "Druid": "yes",
+        "Cleric": "yes",
+        "Ranger": "yes"
+      },
+      "school": "Divination",
+      "name": "Find Traps",
+      "level": "2nd",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "phb 241",
+      "id": "123"
+    },
+    {
+      "components": "VS",
+      "range": "1 mile",
+      "concentration": "no",
+      "time": "1 action",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Evocation",
+      "name": "Meteor Swarm",
+      "level": "9th",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "phb 259",
+      "id": "124"
+    },
+    {
+      "level": "2nd",
+      "name": "Mirror Image",
+      "school": "Illusion",
+      "class": {
+        "Sorcerer": "yes",
+        "Warlock": "yes",
+        "Wizard": "yes"
+      },
+      "source": "phb 260",
+      "ritual": "no",
+      "duration": "1 minute",
+      "range": "Self",
+      "components": "VS",
+      "time": "1 action",
+      "concentration": "no",
+      "id": "125"
+    },
+    {
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 276",
+      "school": "Conjuration",
+      "class": {
+        "Sorcerer": "yes",
+        "Druid": "yes",
+        "Wizard": "yes"
+      },
+      "name": "Sleet Storm",
+      "level": "3rd",
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "VSM",
+      "range": "150 feet",
+      "id": "126"
+    },
+    {
+      "range": "Self",
+      "components": "VSMgp",
+      "time": "10 minutes",
+      "concentration": "no",
+      "name": "Legend Lore",
+      "level": "5th",
+      "school": "Divination",
+      "class": {
+        "Wizard": "yes",
+        "Cleric": "yes",
+        "Bard": "yes"
+      },
+      "source": "phb 254",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "id": "127"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 action",
+      "range": "Touch",
+      "components": "VS",
+      "source": "phb 250",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "name": "Heroism",
+      "level": "1st",
+      "class": {
+        "Paladin": "yes",
+        "Bard": "yes"
+      },
+      "school": "Enchantment",
+      "id": "128"
+    },
+    {
+      "source": "phb 275",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "level": "Cantrip",
+      "name": "Shocking Grasp",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Artificer": "yes"
+      },
+      "school": "Evocation",
+      "time": "1 action",
+      "concentration": "no",
+      "range": "Touch",
+      "components": "VS",
+      "id": "129"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "VSM",
+      "range": "Self",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 233",
+      "class": {
+        "Cleric": "yes",
+        "Paladin": "yes"
+      },
+      "school": "Abjuration",
+      "name": "Dispel Evil and Good",
+      "level": "5th",
+      "id": "130"
+    },
+    {
+      "name": "Feeblemind",
+      "level": "8th",
+      "school": "Enchantment",
+      "class": {
+        "Warlock": "yes",
+        "Wizard": "yes",
+        "Druid": "yes",
+        "Bard": "yes"
+      },
+      "source": "phb 239",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "range": "150 feet",
+      "components": "VSM",
+      "time": "1 action",
+      "concentration": "no",
+      "id": "131"
+    },
+    {
+      "level": "1st",
+      "name": "Armor of Agathys",
+      "school": "Abjuration",
+      "class": {
+        "Warlock": "yes"
+      },
+      "source": "phb 215",
+      "ritual": "no",
+      "duration": "1 hour",
+      "range": "Self",
+      "components": "VSM",
+      "concentration": "no",
+      "time": "1 action",
+      "id": "132"
+    },
+    {
+      "ritual": "no",
+      "duration": "1 round",
+      "source": "phb 283",
+      "school": "Conjuration",
+      "class": {
+        "Druid": "yes"
+      },
+      "level": "6th",
+      "name": "Transport via Plants",
+      "concentration": "no",
+      "time": "1 action",
+      "components": "VS",
+      "range": "10 feet",
+      "id": "133"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "VS",
+      "range": "Self",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "source": "phb 283",
+      "class": {
+        "Ranger": "yes",
+        "Druid": "yes"
+      },
+      "school": "Conjuration",
+      "level": "5th",
+      "name": "Tree Stride",
+      "id": "134"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "VS",
+      "range": "120 feet",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 288",
+      "class": {
+        "Wizard": "yes"
+      },
+      "school": "Illusion",
+      "name": "Weird",
+      "level": "9th",
+      "id": "135"
+    },
+    {
+      "school": "Enchantment",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Bard": "yes"
+      },
+      "name": "Dominate Person",
+      "level": "5th",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 235",
+      "components": "VS",
+      "range": "60 feet",
+      "time": "1 action",
+      "concentration": "yes",
+      "id": "136"
+    },
+    {
+      "components": "VSM",
+      "range": "Touch",
+      "time": "1 minute",
+      "concentration": "no",
+      "school": "Transmutation",
+      "class": {
+        "Bard": "yes",
+        "Sorcerer": "yes",
+        "Cleric": "yes",
+        "Artificer": "yes",
+        "Wizard": "yes",
+        "Druid": "yes"
+      },
+      "name": "Mending",
+      "level": "Cantrip",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "phb 259",
+      "id": "137"
+    },
+    {
+      "components": "VS",
+      "range": "30 feet",
+      "concentration": "no",
+      "time": "1 action",
+      "school": "Enchantment",
+      "class": {
+        "Bard": "yes",
+        "Sorcerer": "yes",
+        "Warlock": "yes",
+        "Wizard": "yes",
+        "Druid": "yes"
+      },
+      "name": "Charm Person",
+      "level": "1st",
+      "duration": "1 hour",
+      "ritual": "no",
+      "source": "phb 221",
+      "id": "138"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "range": "90 feet",
+      "components": "S",
+      "source": "xge 163",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "level": "9th",
+      "name": "Psychic Scream",
+      "class": {
+        "Bard": "yes",
+        "Wizard": "yes",
+        "Warlock": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Enchantment",
+      "id": "139"
+    },
+    {
+      "class": {
+        "Sorcerer": "yes",
+        "Warlock": "yes",
+        "Artificer": "yes",
+        "Druid": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Evocation",
+      "name": "Frostbite",
+      "level": "Cantrip",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "ee 18, xge 156",
+      "components": "VS",
+      "range": "60 feet",
+      "concentration": "no",
+      "time": "1 action",
+      "id": "140"
+    },
+    {
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 251",
+      "class": {
+        "Bard": "yes",
+        "Sorcerer": "yes",
+        "Warlock": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Enchantment",
+      "name": "Hold Monster",
+      "level": "5th",
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "VSM",
+      "range": "90 feet",
+      "id": "141"
+    },
+    {
+      "level": "4th",
+      "name": "Giant Insect",
+      "school": "Transmutation",
+      "class": {
+        "Druid": "yes"
+      },
+      "source": "phb 245",
+      "ritual": "no",
+      "duration": "up to 10 minutes",
+      "range": "30 feet",
+      "components": "VS",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "142"
+    },
+    {
+      "level": "2nd",
+      "name": "Phantasmal Force",
+      "school": "Illusion",
+      "class": {
+        "Bard": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "source": "phb 264",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "range": "60 feet",
+      "components": "VSM",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "143"
+    },
+    {
+      "concentration": "no",
+      "time": "12 hours",
+      "range": "Touch",
+      "components": "VSMgp",
+      "source": "phb 276",
+      "duration": "Until dispelled",
+      "ritual": "no",
+      "name": "Simulacrum",
+      "level": "7th",
+      "class": {
+        "Wizard": "yes"
+      },
+      "school": "Illusion",
+      "id": "144"
+    },
+    {
+      "source": "ee 19, xge 157",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "name": "Gust",
+      "level": "Cantrip",
+      "school": "Transmutation",
+      "class": {
+        "Wizard": "yes",
+        "Druid": "yes",
+        "Sorcerer": "yes"
+      },
+      "concentration": "no",
+      "time": "1 action",
+      "range": "30 feet",
+      "components": "VS",
+      "id": "145"
+    },
+    {
+      "source": "xge 168",
+      "duration": "10 minutes",
+      "ritual": "no",
+      "name": "Tenser's Transformation",
+      "level": "6th",
+      "class": {
+        "Wizard": "yes"
+      },
+      "school": "Transmutation",
+      "concentration": "yes",
+      "time": "1 action",
+      "range": "Self",
+      "components": "VSM",
+      "id": "146"
+    },
+    {
+      "name": "Vampiric Touch",
+      "level": "3rd",
+      "class": {
+        "Warlock": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Necromancy",
+      "source": "phb 285",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "range": "Self",
+      "components": "VS",
+      "time": "1 action",
+      "concentration": "yes",
+      "id": "147"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 action",
+      "components": "VSM",
+      "range": "300 feet",
+      "duration": "up to 10 minutes",
+      "ritual": "no",
+      "source": "phb 254",
+      "class": {
+        "Sorcerer": "yes",
+        "Cleric": "yes",
+        "Druid": "yes"
+      },
+      "school": "Conjuration",
+      "name": "Insect Plague",
+      "level": "5th",
+      "id": "148"
+    },
+    {
+      "name": "Blade Ward",
+      "level": "Cantrip",
+      "school": "Abjuration",
+      "class": {
+        "Bard": "yes",
+        "Sorcerer": "yes",
+        "Warlock": "yes",
+        "Wizard": "yes"
+      },
+      "source": "phb 218",
+      "duration": "1 round",
+      "ritual": "no",
+      "range": "Self",
+      "components": "VS",
+      "concentration": "no",
+      "time": "1 action",
+      "id": "149"
+    },
+    {
+      "school": "Evocation",
+      "class": {
+        "Wizard": "yes",
+        "Druid": "yes",
+        "Sorcerer": "yes"
+      },
+      "name": "Wall of Fire",
+      "level": "4th",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 285",
+      "components": "VSM",
+      "range": "120 feet",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "150"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "components": "S",
+      "range": "60 feet",
+      "ritual": "no",
+      "duration": "1 hour",
+      "source": "ee 16, xge 152",
+      "school": "Transmutation",
+      "class": {
+        "Sorcerer": "yes",
+        "Druid": "yes",
+        "Wizard": "yes"
+      },
+      "level": "Cantrip",
+      "name": "Control Flames",
+      "id": "151"
+    },
+    {
+      "components": "VS",
+      "range": "30 feet",
+      "concentration": "yes",
+      "time": "1 action",
+      "school": "Enchantment",
+      "class": {
+        "Bard": "yes",
+        "Wizard": "yes"
+      },
+      "name": "Modify Memory",
+      "level": "5th",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 261",
+      "id": "152"
+    },
+    {
+      "range": "Self",
+      "components": "VS",
+      "time": "1 action",
+      "concentration": "no",
+      "name": "Speak with Plants",
+      "level": "3rd",
+      "class": {
+        "Druid": "yes",
+        "Bard": "yes",
+        "Ranger": "yes"
+      },
+      "school": "Transmutation",
+      "source": "phb 277",
+      "duration": "10 minutes",
+      "ritual": "no",
+      "id": "153"
+    },
+    {
+      "range": "60 feet",
+      "components": "VSM",
+      "concentration": "no",
+      "time": "1 action",
+      "name": "Flame Strike",
+      "level": "5th",
+      "class": {
+        "Cleric": "yes"
+      },
+      "school": "Evocation",
+      "source": "phb 242",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "id": "154"
+    },
+    {
+      "time": "1 action",
+      "concentration": "no",
+      "components": "VSMgp",
+      "range": "Touch",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "phb 246",
+      "class": {
+        "Bard": "yes",
+        "Cleric": "yes",
+        "Artificer": "yes",
+        "Druid": "yes"
+      },
+      "school": "Abjuration",
+      "level": "5th",
+      "name": "Greater Restoration",
+      "id": "155"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "VSM",
+      "range": "60 feet",
+      "ritual": "no",
+      "duration": "up to 10 minutes",
+      "source": "phb 255",
+      "school": "Transmutation",
+      "class": {
+        "Wizard": "yes",
+        "Artificer": "yes",
+        "Sorcerer": "yes"
+      },
+      "level": "2nd",
+      "name": "Levitate",
+      "id": "156"
+    },
+    {
+      "level": "1st",
+      "name": "Thunderous Smite",
+      "class": {
+        "Paladin": "yes"
+      },
+      "school": "Evocation",
+      "source": "phb 282",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "range": "Self",
+      "components": "V",
+      "concentration": "yes",
+      "time": "1 bonus action",
+      "id": "157"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 action",
+      "range": "30 feet",
+      "components": "V",
+      "source": "phb 264",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "name": "Otto's Irresistible Dance",
+      "level": "6th",
+      "class": {
+        "Bard": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Enchantment",
+      "id": "158"
+    },
+    {
+      "components": "VSM",
+      "range": "30 feet",
+      "time": "1 action",
+      "concentration": "yes",
+      "class": {
+        "Artificer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Divination",
+      "level": "4th",
+      "name": "Arcane Eye",
+      "ritual": "no",
+      "duration": "up to 1 hour",
+      "source": "phb 214",
+      "id": "159"
+    },
+    {
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "source": "phb 289",
+      "school": "Evocation",
+      "class": {
+        "Paladin": "yes"
+      },
+      "level": "1st",
+      "name": "Wrathful Smite",
+      "time": "1 bonus action",
+      "concentration": "yes",
+      "components": "V",
+      "range": "Self",
+      "id": "160"
+    },
+    {
+      "source": "ee 23, xge 170",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "level": "4th",
+      "name": "Vitriolic Sphere",
+      "school": "Evocation",
+      "class": {
+        "Wizard": "yes",
+        "Artificer": "yes",
+        "Sorcerer": "yes"
+      },
+      "concentration": "no",
+      "time": "1 action",
+      "range": "150 feet",
+      "components": "VSM",
+      "id": "161"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 action",
+      "components": "VSM",
+      "range": "Self",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "source": "phb 248",
+      "class": {
+        "Sorcerer": "yes",
+        "Druid": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Evocation",
+      "level": "2nd",
+      "name": "Gust of Wind",
+      "id": "162"
+    },
+    {
+      "level": "2nd",
+      "name": "Pyrotechnics",
+      "school": "Transmutation",
+      "class": {
+        "Bard": "yes",
+        "Wizard": "yes",
+        "Artificer": "yes",
+        "Sorcerer": "yes"
+      },
+      "source": "ee 21, xge 163",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "range": "60 feet",
+      "components": "VS",
+      "time": "1 action",
+      "concentration": "no",
+      "id": "163"
+    },
+    {
+      "time": "10 minutes",
+      "concentration": "no",
+      "components": "VSM",
+      "range": "300 feet",
+      "duration": "24 hours",
+      "ritual": "no",
+      "source": "phb 249",
+      "class": {
+        "Druid": "yes",
+        "Wizard": "yes",
+        "Warlock": "yes",
+        "Bard": "yes"
+      },
+      "school": "Illusion",
+      "name": "Hallucinatory Terrain",
+      "level": "4th",
+      "id": "164"
+    },
+    {
+      "name": "Foresight",
+      "level": "9th",
+      "class": {
+        "Warlock": "yes",
+        "Druid": "yes",
+        "Wizard": "yes",
+        "Bard": "yes"
+      },
+      "school": "Divination",
+      "source": "phb 244",
+      "duration": "8 hours",
+      "ritual": "no",
+      "range": "Touch",
+      "components": "VSM",
+      "concentration": "no",
+      "time": "1 minute",
+      "id": "165"
+    },
+    {
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "source": "phb 249",
+      "school": "Conjuration",
+      "class": {
+        "Ranger": "yes"
+      },
+      "level": "1st",
+      "name": "Hail of Thorns",
+      "concentration": "yes",
+      "time": "1 bonus action",
+      "components": "V",
+      "range": "Self",
+      "id": "166"
+    },
+    {
+      "source": "phb 251",
+      "duration": "up to 1 hour",
+      "ritual": "no",
+      "name": "Hex",
+      "level": "1st",
+      "class": {
+        "Warlock": "yes"
+      },
+      "school": "Enchantment",
+      "time": "1 bonus action",
+      "concentration": "yes",
+      "range": "90 feet",
+      "components": "VSM",
+      "id": "167"
+    },
+    {
+      "time": "1 action",
+      "concentration": "no",
+      "range": "60 feet",
+      "components": "V",
+      "source": "phb 254",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "level": "2nd",
+      "name": "Knock",
+      "class": {
+        "Sorcerer": "yes",
+        "Wizard": "yes",
+        "Bard": "yes"
+      },
+      "school": "Transmutation",
+      "id": "168"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "range": "Self",
+      "components": "VS",
+      "source": "xge 152",
+      "ritual": "no",
+      "duration": "1 hour",
+      "level": "7th",
+      "name": "Crown of Stars",
+      "class": {
+        "Sorcerer": "yes",
+        "Warlock": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Evocation",
+      "id": "169"
+    },
+    {
+      "range": "60 feet",
+      "components": "VSM",
+      "concentration": "yes",
+      "time": "1 action",
+      "name": "Flaming Sphere",
+      "level": "2nd",
+      "class": {
+        "Druid": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Conjuration",
+      "source": "phb 242",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "id": "170"
+    },
+    {
+      "source": "phb 267",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "name": "Prismatic Spray",
+      "level": "7th",
+      "school": "Evocation",
+      "class": {
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "time": "1 action",
+      "concentration": "no",
+      "range": "Self",
+      "components": "VS",
+      "id": "171"
+    },
+    {
+      "time": "10 minutes",
+      "concentration": "no",
+      "range": "Touch",
+      "components": "VSMgp",
+      "source": "phb 243",
+      "ritual": "yes",
+      "duration": "24 hours",
+      "level": "6th",
+      "name": "Forbiddance",
+      "school": "Abjuration",
+      "class": {
+        "Cleric": "yes"
+      },
+      "id": "172"
+    },
+    {
+      "ritual": "no",
+      "duration": "up to 1 hour",
+      "source": "phb 251",
+      "class": {
+        "Ranger": "yes"
+      },
+      "school": "Divination",
+      "level": "1st",
+      "name": "Hunter's Mark",
+      "time": "1 bonus action",
+      "concentration": "yes",
+      "components": "V",
+      "range": "90 feet",
+      "id": "173"
+    },
+    {
+      "source": "phb 219",
+      "ritual": "no",
+      "duration": "1 minute",
+      "level": "3rd",
+      "name": "Blink",
+      "school": "Transmutation",
+      "class": {
+        "Sorcerer": "yes",
+        "Artificer": "yes",
+        "Wizard": "yes"
+      },
+      "concentration": "no",
+      "time": "1 action",
+      "range": "Self",
+      "components": "VS",
+      "id": "174"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "VS",
+      "range": "300 feet",
+      "duration": "1 hour",
+      "ritual": "no",
+      "source": "ee 16",
+      "school": "Transmutation",
+      "class": {
+        "Druid": "yes",
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "name": "Control Winds",
+      "level": "5th",
+      "id": "175"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "components": "V",
+      "range": "Self",
+      "ritual": "no",
+      "duration": "1 hour",
+      "source": "phb 245",
+      "class": {
+        "Warlock": "yes",
+        "Bard": "yes"
+      },
+      "school": "Transmutation",
+      "level": "8th",
+      "name": "Glibness",
+      "id": "176"
+    },
+    {
+      "range": "30 feet",
+      "components": "VSM",
+      "concentration": "no",
+      "time": "1 action",
+      "level": "1st",
+      "name": "Animal Friendship",
+      "school": "Enchantment",
+      "class": {
+        "Ranger": "yes",
+        "Bard": "yes",
+        "Druid": "yes"
+      },
+      "source": "phb 212",
+      "ritual": "no",
+      "duration": "24 hours",
+      "id": "177"
+    },
+    {
+      "components": "VSM",
+      "range": "Self",
+      "time": "1 minute",
+      "concentration": "no",
+      "class": {
+        "Wizard": "yes",
+        "Bard": "yes"
+      },
+      "school": "Evocation",
+      "name": "Leomund's Tiny Hut",
+      "level": "3rd",
+      "duration": "8 hours",
+      "ritual": "yes",
+      "source": "phb 255",
+      "id": "178"
+    },
+    {
+      "name": "Grease",
+      "level": "1st",
+      "school": "Conjuration",
+      "class": {
+        "Artificer": "yes",
+        "Wizard": "yes"
+      },
+      "source": "phb 246",
+      "duration": "1 minute",
+      "ritual": "no",
+      "range": "60 feet",
+      "components": "VSM",
+      "concentration": "no",
+      "time": "1 action",
+      "id": "179"
+    },
+    {
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "phb 267",
+      "class": {
+        "Wizard": "yes",
+        "Warlock": "yes",
+        "Sorcerer": "yes",
+        "Bard": "yes"
+      },
+      "school": "Enchantment",
+      "name": "Power Word Stun",
+      "level": "8th",
+      "concentration": "no",
+      "time": "1 action",
+      "components": "V",
+      "range": "60 feet",
+      "id": "180"
+    },
+    {
+      "level": "2nd",
+      "name": "Spike Growth",
+      "school": "Transmutation",
+      "class": {
+        "Druid": "yes",
+        "Ranger": "yes"
+      },
+      "source": "phb 277",
+      "ritual": "no",
+      "duration": "up to 10 minutes",
+      "range": "150 feet",
+      "components": "VSM",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "181"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 action",
+      "components": "SM",
+      "range": "Self",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 244",
+      "school": "Enchantment",
+      "class": {
+        "Bard": "yes",
+        "Wizard": "yes",
+        "Warlock": "yes",
+        "Sorcerer": "yes"
+      },
+      "name": "Friends",
+      "level": "Cantrip",
+      "id": "182"
+    },
+    {
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "xge 163",
+      "school": "Necromancy",
+      "class": {
+        "Warlock": "yes",
+        "Wizard": "yes"
+      },
+      "name": "Negative Energy Flood",
+      "level": "5th",
+      "time": "1 action",
+      "concentration": "no",
+      "components": "VM",
+      "range": "60 feet",
+      "id": "183"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "range": "Self",
+      "components": "VS",
+      "source": "phb 231",
+      "ritual": "no",
+      "duration": "up to 10 minutes",
+      "level": "1st",
+      "name": "Detect Evil and Good",
+      "school": "Divination",
+      "class": {
+        "Paladin": "yes",
+        "Cleric": "yes"
+      },
+      "id": "184"
+    },
+    {
+      "range": "10 feet",
+      "components": "VS",
+      "time": "1 action",
+      "concentration": "no",
+      "name": "Earth Tremor",
+      "level": "1st",
+      "school": "Evocation",
+      "class": {
+        "Bard": "yes",
+        "Druid": "yes",
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "source": "ee 17, xge 155",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "id": "185"
+    },
+    {
+      "name": "Green-Flame Blade",
+      "level": "Cantrip",
+      "class": {
+        "Warlock": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Evocation",
+      "source": "scag 143",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "range": "5 feet",
+      "components": "VM",
+      "concentration": "no",
+      "time": "1 action",
+      "id": "186"
+    },
+    {
+      "source": "phb 281",
+      "ritual": "no",
+      "duration": "24 hours",
+      "level": "8th",
+      "name": "Telepathy",
+      "class": {
+        "Wizard": "yes"
+      },
+      "school": "Evocation",
+      "time": "1 action",
+      "concentration": "no",
+      "range": "Unlimited",
+      "components": "VSM",
+      "id": "187"
+    },
+    {
+      "class": {
+        "Paladin": "yes"
+      },
+      "school": "Abjuration",
+      "name": "Aura of Life",
+      "level": "4th",
+      "duration": "up to 10 minutes",
+      "ritual": "no",
+      "source": "phb 216",
+      "components": "V",
+      "range": "Self",
+      "time": "1 action",
+      "concentration": "yes",
+      "id": "188"
+    },
+    {
+      "school": "Evocation",
+      "class": {
+        "Paladin": "yes"
+      },
+      "name": "Searing Smite",
+      "level": "1st",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 274",
+      "components": "V",
+      "range": "Self",
+      "time": "1 bonus action",
+      "concentration": "yes",
+      "id": "189"
+    },
+    {
+      "school": "Evocation",
+      "class": {
+        "Wizard": "yes"
+      },
+      "name": "Contingency",
+      "level": "6th",
+      "duration": "10 days",
+      "ritual": "no",
+      "source": "phb 227",
+      "components": "VSMgp",
+      "range": "Self",
+      "concentration": "no",
+      "time": "10 minutes",
+      "id": "190"
+    },
+    {
+      "source": "phb 282",
+      "ritual": "no",
+      "duration": "1 minute",
+      "level": "Cantrip",
+      "name": "Thaumaturgy",
+      "school": "Transmutation",
+      "class": {
+        "Cleric": "yes"
+      },
+      "concentration": "no",
+      "time": "1 action",
+      "range": "30 feet",
+      "components": "V",
+      "id": "191"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "range": "60 feet",
+      "components": "VS",
+      "source": "phb 271",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "name": "Ray of Enfeeblement",
+      "level": "2nd",
+      "class": {
+        "Wizard": "yes",
+        "Warlock": "yes"
+      },
+      "school": "Necromancy",
+      "id": "192"
+    },
+    {
+      "name": "Unseen Servant",
+      "level": "1st",
+      "class": {
+        "Warlock": "yes",
+        "Wizard": "yes",
+        "Bard": "yes"
+      },
+      "school": "Conjuration",
+      "source": "phb 284",
+      "duration": "1 hour",
+      "ritual": "yes",
+      "range": "60 feet",
+      "components": "VSM",
+      "time": "1 action",
+      "concentration": "no",
+      "id": "193"
+    },
+    {
+      "name": "Heroes' Feast",
+      "level": "6th",
+      "school": "Conjuration",
+      "class": {
+        "Druid": "yes",
+        "Cleric": "yes"
+      },
+      "source": "phb 250",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "range": "30 feet",
+      "components": "VSMgp",
+      "time": "10 minutes",
+      "concentration": "no",
+      "id": "194"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "components": "VSM",
+      "range": "Touch",
+      "duration": "10 days",
+      "ritual": "yes",
+      "source": "phb 245",
+      "class": {
+        "Wizard": "yes",
+        "Cleric": "yes"
+      },
+      "school": "Necromancy",
+      "name": "Gentle Repose",
+      "level": "2nd",
+      "id": "195"
+    },
+    {
+      "components": "VSM",
+      "range": "30 feet",
+      "concentration": "no",
+      "time": "1 action",
+      "class": {
+        "Druid": "yes",
+        "Cleric": "yes"
+      },
+      "school": "Transmutation",
+      "name": "Create or Destroy Water",
+      "level": "1st",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "phb 229",
+      "id": "196"
+    },
+    {
+      "concentration": "no",
+      "time": "1 reaction",
+      "range": "60 feet",
+      "components": "VM",
+      "source": "phb 239",
+      "duration": "1 minute",
+      "ritual": "no",
+      "name": "Feather Fall",
+      "level": "1st",
+      "school": "Transmutation",
+      "class": {
+        "Wizard": "yes",
+        "Artificer": "yes",
+        "Sorcerer": "yes",
+        "Bard": "yes"
+      },
+      "id": "197"
+    },
+    {
+      "level": "2nd",
+      "name": "Darkness",
+      "school": "Evocation",
+      "class": {
+        "Warlock": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "source": "phb 230",
+      "ritual": "no",
+      "duration": "up to 10 minutes",
+      "range": "60 feet",
+      "components": "VM",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "198"
+    },
+    {
+      "name": "Skill Empowerment",
+      "level": "5th",
+      "school": "Transmutation",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Artificer": "yes",
+        "Bard": "yes"
+      },
+      "source": "xge 165",
+      "duration": "1 hour",
+      "ritual": "no",
+      "range": "Touch",
+      "components": "VS",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "199"
+    },
+    {
+      "class": {
+        "Druid": "yes"
+      },
+      "school": "Evocation",
+      "name": "Moonbeam",
+      "level": "2nd",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 261",
+      "components": "VSM",
+      "range": "120 feet",
+      "time": "1 action",
+      "concentration": "yes",
+      "id": "200"
+    },
+    {
+      "ritual": "yes",
+      "duration": "Instantaneous",
+      "source": "xge 151",
+      "school": "Abjuration",
+      "class": {
+        "Paladin": "yes",
+        "Cleric": "yes"
+      },
+      "level": "1st",
+      "name": "Ceremony",
+      "time": "1 hour",
+      "concentration": "no",
+      "components": "VSMgp",
+      "range": "Touch",
+      "id": "201"
+    },
+    {
+      "components": "VS",
+      "range": "Self",
+      "time": "1 action",
+      "concentration": "no",
+      "class": {
+        "Bard": "yes",
+        "Ranger": "yes",
+        "Druid": "yes"
+      },
+      "school": "Divination",
+      "level": "1st",
+      "name": "Speak with Animals",
+      "ritual": "yes",
+      "duration": "10 minutes",
+      "source": "phb 277",
+      "id": "202"
+    },
+    {
+      "source": "phb 258",
+      "ritual": "no",
+      "duration": "up to 10 minutes",
+      "level": "3rd",
+      "name": "Major Image",
+      "school": "Illusion",
+      "class": {
+        "Bard": "yes",
+        "Warlock": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "concentration": "yes",
+      "time": "1 action",
+      "range": "120 feet",
+      "components": "VSM",
+      "id": "203"
+    },
+    {
+      "name": "Haste",
+      "level": "3rd",
+      "school": "Transmutation",
+      "class": {
+        "Sorcerer": "yes",
+        "Artificer": "yes",
+        "Wizard": "yes"
+      },
+      "source": "phb 250",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "range": "30 feet",
+      "components": "VSM",
+      "time": "1 action",
+      "concentration": "yes",
+      "id": "204"
+    },
+    {
+      "concentration": "no",
+      "time": "1 hour",
+      "range": "120 feet",
+      "components": "VSMgp",
+      "source": "xge 167",
+      "ritual": "no",
+      "duration": "24 hours",
+      "level": "7th",
+      "name": "Temple of the Gods",
+      "school": "Conjuration",
+      "class": {
+        "Cleric": "yes"
+      },
+      "id": "205"
+    },
+    {
+      "range": "120 feet",
+      "components": "VSM",
+      "concentration": "yes",
+      "time": "1 action",
+      "name": "Wall of Light",
+      "level": "5th",
+      "school": "Evocation",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Warlock": "yes"
+      },
+      "source": "xge 170",
+      "duration": "10 minutes",
+      "ritual": "no",
+      "id": "206"
+    },
+    {
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 243",
+      "school": "Transmutation",
+      "class": {
+        "Wizard": "yes",
+        "Warlock": "yes"
+      },
+      "name": "Flesh to Stone",
+      "level": "6th",
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "VSM",
+      "range": "60 feet",
+      "id": "207"
+    },
+    {
+      "range": "120 feet",
+      "components": "VS",
+      "concentration": "no",
+      "time": "1 action",
+      "name": "Guiding Bolt",
+      "level": "1st",
+      "class": {
+        "Cleric": "yes"
+      },
+      "school": "Evocation",
+      "source": "phb 248",
+      "duration": "1 round",
+      "ritual": "no",
+      "id": "208"
+    },
+    {
+      "ritual": "no",
+      "duration": "up to 10 minutes",
+      "source": "phb 238",
+      "class": {
+        "Warlock": "yes",
+        "Artificer": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Transmutation",
+      "level": "1st",
+      "name": "Expeditious Retreat",
+      "concentration": "yes",
+      "time": "1 bonus action",
+      "components": "VS",
+      "range": "Self",
+      "id": "209"
+    },
+    {
+      "time": "1 bonus action",
+      "concentration": "yes",
+      "range": "Self",
+      "components": "V",
+      "source": "phb 237",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "level": "1st",
+      "name": "Ensnaring Strike",
+      "class": {
+        "Ranger": "yes"
+      },
+      "school": "Conjuration",
+      "id": "210"
+    },
+    {
+      "class": {
+        "Ranger": "yes"
+      },
+      "school": "Conjuration",
+      "name": "Conjure Volley",
+      "level": "5th",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "phb 226",
+      "components": "VSM",
+      "range": "150 feet",
+      "time": "1 action",
+      "concentration": "no",
+      "id": "211"
+    },
+    {
+      "school": "Conjuration",
+      "class": {
+        "Cleric": "yes"
+      },
+      "name": "Guardian of Faith",
+      "level": "4th",
+      "duration": "8 hours",
+      "ritual": "no",
+      "source": "phb 246",
+      "components": "V",
+      "range": "30 feet",
+      "time": "1 action",
+      "concentration": "no",
+      "id": "212"
+    },
+    {
+      "source": "phb 222",
+      "duration": "up to 10 minutes",
+      "ritual": "no",
+      "name": "Clairvoyance",
+      "level": "3rd",
+      "class": {
+        "Bard": "yes",
+        "Wizard": "yes",
+        "Cleric": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Divination",
+      "time": "10 minutes",
+      "concentration": "yes",
+      "range": "1 mile",
+      "components": "VSMgp",
+      "id": "213"
+    },
+    {
+      "concentration": "no",
+      "time": "1 hour",
+      "range": "10 feet",
+      "components": "VSMgp",
+      "source": "phb 215",
+      "duration": "Special",
+      "ritual": "no",
+      "name": "Astral Projection",
+      "level": "9th",
+      "class": {
+        "Wizard": "yes",
+        "Cleric": "yes",
+        "Warlock": "yes"
+      },
+      "school": "Necromancy",
+      "id": "214"
+    },
+    {
+      "name": "Mental Prison",
+      "level": "6th",
+      "school": "Illusion",
+      "class": {
+        "Wizard": "yes",
+        "Warlock": "yes",
+        "Sorcerer": "yes"
+      },
+      "source": "xge 161",
+      "duration": "1 minute",
+      "ritual": "no",
+      "range": "60 feet",
+      "components": "S",
+      "time": "1 action",
+      "concentration": "yes",
+      "id": "215"
+    },
+    {
+      "level": "8th",
+      "name": "Dominate Monster",
+      "class": {
+        "Sorcerer": "yes",
+        "Warlock": "yes",
+        "Wizard": "yes",
+        "Bard": "yes"
+      },
+      "school": "Enchantment",
+      "source": "phb 235",
+      "ritual": "no",
+      "duration": "up to 1 hour",
+      "range": "60 feet",
+      "components": "VS",
+      "time": "1 action",
+      "concentration": "yes",
+      "id": "216"
+    },
+    {
+      "source": "phb 277",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "level": "3rd",
+      "name": "Slow",
+      "school": "Transmutation",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "concentration": "yes",
+      "time": "1 action",
+      "range": "120 feet",
+      "components": "VSM",
+      "id": "217"
+    },
+    {
+      "name": "Call Lightning",
+      "level": "3rd",
+      "school": "Conjuration",
+      "class": {
+        "Druid": "yes"
+      },
+      "source": "phb 220",
+      "duration": "up to 10 minutes",
+      "ritual": "no",
+      "range": "120 feet",
+      "components": "VS",
+      "time": "1 action",
+      "concentration": "yes",
+      "id": "218"
+    },
+    {
+      "time": "1 minute",
+      "concentration": "no",
+      "range": "30 feet",
+      "components": "VSMgp",
+      "source": "phb 252",
+      "duration": "Until dispelled",
+      "ritual": "no",
+      "name": "Imprisonment",
+      "level": "9th",
+      "class": {
+        "Wizard": "yes",
+        "Warlock": "yes"
+      },
+      "school": "Abjuration",
+      "id": "219"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "components": "VSM",
+      "range": "60 feet",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "phb 275",
+      "class": {
+        "Bard": "yes",
+        "Warlock": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Evocation",
+      "name": "Shatter",
+      "level": "2nd",
+      "id": "220"
+    },
+    {
+      "name": "Thunderwave",
+      "level": "1st",
+      "class": {
+        "Bard": "yes",
+        "Wizard": "yes",
+        "Druid": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Evocation",
+      "source": "phb 282",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "range": "Self",
+      "components": "VS",
+      "concentration": "no",
+      "time": "1 action",
+      "id": "221"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "range": "150 feet",
+      "components": "VS",
+      "source": "phb 253",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "level": "8th",
+      "name": "Incendiary Cloud",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Conjuration",
+      "id": "222"
+    },
+    {
+      "source": "phb 272",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "level": "3rd",
+      "name": "Revivify",
+      "class": {
+        "Paladin": "yes",
+        "Artificer": "yes",
+        "Cleric": "yes"
+      },
+      "school": "Necromancy",
+      "concentration": "no",
+      "time": "1 action",
+      "range": "Touch",
+      "components": "VSMgp",
+      "id": "223"
+    },
+    {
+      "name": "Mass Heal",
+      "level": "9th",
+      "school": "Evocation",
+      "class": {
+        "Cleric": "yes"
+      },
+      "source": "phb 258",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "range": "60 feet",
+      "components": "VS",
+      "time": "1 action",
+      "concentration": "no",
+      "id": "224"
+    },
+    {
+      "school": "Abjuration",
+      "class": {
+        "Druid": "yes",
+        "Cleric": "yes",
+        "Artificer": "yes"
+      },
+      "name": "Resistance",
+      "level": "Cantrip",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 272",
+      "components": "VSM",
+      "range": "Touch",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "225"
+    },
+    {
+      "name": "Mind Spike",
+      "level": "2nd",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Warlock": "yes"
+      },
+      "school": "Divination",
+      "source": "xge 162",
+      "duration": "1 hour",
+      "ritual": "no",
+      "range": "60 feet",
+      "components": "S",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "226"
+    },
+    {
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "phb 239",
+      "school": "Transmutation",
+      "class": {
+        "Wizard": "yes",
+        "Artificer": "yes"
+      },
+      "level": "4th",
+      "name": "Fabricate",
+      "concentration": "no",
+      "time": "10 minutes",
+      "components": "VS",
+      "range": "120 feet",
+      "id": "227"
+    },
+    {
+      "source": "phb 218",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "name": "Bestow Curse",
+      "level": "3rd",
+      "school": "Necromancy",
+      "class": {
+        "Cleric": "yes",
+        "Wizard": "yes",
+        "Bard": "yes"
+      },
+      "concentration": "yes",
+      "time": "1 action",
+      "range": "Touch",
+      "components": "VS",
+      "id": "228"
+    },
+    {
+      "range": "Sight",
+      "components": "VS",
+      "concentration": "yes",
+      "time": "1 action",
+      "level": "2nd",
+      "name": "Skywrite",
+      "class": {
+        "Bard": "yes",
+        "Wizard": "yes",
+        "Druid": "yes",
+        "Artificer": "yes"
+      },
+      "school": "Transmutation",
+      "source": "ee 22, xge 165",
+      "ritual": "yes",
+      "duration": "1 hour",
+      "id": "229"
+    },
+    {
+      "range": "90 feet",
+      "components": "VSM",
+      "concentration": "no",
+      "time": "1 action",
+      "name": "Sleep",
+      "level": "1st",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Bard": "yes"
+      },
+      "school": "Enchantment",
+      "source": "phb 276",
+      "duration": "1 minute",
+      "ritual": "no",
+      "id": "230"
+    },
+    {
+      "source": "phb 250",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "level": "6th",
+      "name": "Heal",
+      "class": {
+        "Druid": "yes",
+        "Cleric": "yes"
+      },
+      "school": "Evocation",
+      "time": "1 action",
+      "concentration": "no",
+      "range": "60 feet",
+      "components": "VS",
+      "id": "231"
+    },
+    {
+      "time": "1 bonus action",
+      "concentration": "yes",
+      "components": "VSM",
+      "range": "Touch",
+      "ritual": "no",
+      "duration": "1 minute",
+      "source": "xge 154",
+      "school": "Transmutation",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "level": "2nd",
+      "name": "Dragon's Breath",
+      "id": "232"
+    },
+    {
+      "source": "phb 224",
+      "duration": "1 hour",
+      "ritual": "yes",
+      "name": "Comprehend Languages",
+      "level": "1st",
+      "class": {
+        "Bard": "yes",
+        "Warlock": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Divination",
+      "concentration": "no",
+      "time": "1 action",
+      "range": "Self",
+      "components": "VSM",
+      "id": "233"
+    },
+    {
+      "time": "1 action",
+      "concentration": "no",
+      "components": "VSM",
+      "range": "120 feet",
+      "duration": "Until dispelled",
+      "ritual": "no",
+      "source": "ee 22, xge 169",
+      "class": {
+        "Artificer": "yes",
+        "Wizard": "yes",
+        "Druid": "yes"
+      },
+      "school": "Transmutation",
+      "name": "Transmute Rock",
+      "level": "5th",
+      "id": "234"
+    },
+    {
+      "ritual": "no",
+      "duration": "1 hour",
+      "source": "xge 153",
+      "class": {
+        "Warlock": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Necromancy",
+      "level": "5th",
+      "name": "Danse Macabre",
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "VS",
+      "range": "60 feet",
+      "id": "235"
+    },
+    {
+      "level": "7th",
+      "name": "Regenerate",
+      "class": {
+        "Druid": "yes",
+        "Cleric": "yes",
+        "Bard": "yes"
+      },
+      "school": "Transmutation",
+      "source": "phb 271",
+      "ritual": "no",
+      "duration": "1 hour",
+      "range": "Touch",
+      "components": "VSM",
+      "concentration": "no",
+      "time": "1 minute",
+      "id": "236"
+    },
+    {
+      "range": "120 feet",
+      "components": "VS",
+      "time": "1 action",
+      "concentration": "yes",
+      "name": "Fog Cloud",
+      "level": "1st",
+      "school": "Conjuration",
+      "class": {
+        "Ranger": "yes",
+        "Druid": "yes",
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "source": "phb 243",
+      "duration": "up to 1 hour",
+      "ritual": "no",
+      "id": "237"
+    },
+    {
+      "source": "xge 157",
+      "ritual": "no",
+      "duration": "1 minute",
+      "level": "2nd",
+      "name": "Healing Spirit",
+      "school": "Conjuration",
+      "class": {
+        "Druid": "yes",
+        "Ranger": "yes"
+      },
+      "concentration": "yes",
+      "time": "1 bonus action",
+      "range": "60 feet",
+      "components": "VS",
+      "id": "238"
+    },
+    {
+      "range": "120 feet",
+      "components": "VS",
+      "time": "1 action",
+      "concentration": "yes",
+      "level": "4th",
+      "name": "Sickening Radiance",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Warlock": "yes"
+      },
+      "school": "Evocation",
+      "source": "xge 164",
+      "ritual": "no",
+      "duration": "10 minutes",
+      "id": "239"
+    },
+    {
+      "source": "ee 19, xge 157",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "name": "Ice Knife",
+      "level": "1st",
+      "class": {
+        "Druid": "yes",
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Conjuration",
+      "time": "1 action",
+      "concentration": "no",
+      "range": "60 feet",
+      "components": "SM",
+      "id": "240"
+    },
+    {
+      "concentration": "no",
+      "time": "1 hour",
+      "range": "Touch",
+      "components": "VSMgp",
+      "source": "phb 245",
+      "duration": "Until dispelled",
+      "ritual": "no",
+      "name": "Glyph of Warding",
+      "level": "3rd",
+      "school": "Abjuration",
+      "class": {
+        "Wizard": "yes",
+        "Cleric": "yes",
+        "Artificer": "yes",
+        "Bard": "yes"
+      },
+      "id": "241"
+    },
+    {
+      "range": "30 feet",
+      "components": "SM",
+      "concentration": "no",
+      "time": "1 action",
+      "level": "3rd",
+      "name": "Catnap",
+      "class": {
+        "Bard": "yes",
+        "Wizard": "yes",
+        "Artificer": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Enchantment",
+      "source": "xge 151",
+      "ritual": "no",
+      "duration": "10 minutes",
+      "id": "242"
+    },
+    {
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Transmutation",
+      "level": "5th",
+      "name": "Telekinesis",
+      "ritual": "no",
+      "duration": "up to 10 minutes",
+      "source": "phb 280",
+      "components": "VS",
+      "range": "60 feet",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "243"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "VS",
+      "range": "150 feet",
+      "ritual": "no",
+      "duration": "1 minute",
+      "source": "ee 22, xge 166",
+      "school": "Evocation",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "level": "4th",
+      "name": "Storm Sphere",
+      "id": "244"
+    },
+    {
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "phb 242",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Artificer": "yes"
+      },
+      "school": "Evocation",
+      "name": "Fire Bolt",
+      "level": "Cantrip",
+      "time": "1 action",
+      "concentration": "no",
+      "components": "VS",
+      "range": "120 feet",
+      "id": "245"
+    },
+    {
+      "source": "phb 237",
+      "duration": "up to 1 hour",
+      "ritual": "no",
+      "name": "Enhance Ability",
+      "level": "2nd",
+      "school": "Transmutation",
+      "class": {
+        "Druid": "yes",
+        "Artificer": "yes",
+        "Cleric": "yes",
+        "Sorcerer": "yes",
+        "Bard": "yes"
+      },
+      "time": "1 action",
+      "concentration": "yes",
+      "range": "Touch",
+      "components": "VSM",
+      "id": "246"
+    },
+    {
+      "range": "60 feet",
+      "components": "VS",
+      "concentration": "no",
+      "time": "1 action",
+      "name": "Daylight",
+      "level": "3rd",
+      "class": {
+        "Paladin": "yes",
+        "Ranger": "yes",
+        "Druid": "yes",
+        "Cleric": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Evocation",
+      "source": "phb 230",
+      "duration": "1 hour",
+      "ritual": "no",
+      "id": "247"
+    },
+    {
+      "time": "1 action",
+      "concentration": "no",
+      "range": "Self",
+      "components": "VSMgp",
+      "source": "phb 234",
+      "duration": "Instantaneous",
+      "ritual": "yes",
+      "name": "Divination",
+      "level": "4th",
+      "class": {
+        "Cleric": "yes"
+      },
+      "school": "Divination",
+      "id": "248"
+    },
+    {
+      "class": {
+        "Bard": "yes",
+        "Warlock": "yes",
+        "Artificer": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Conjuration",
+      "level": "Cantrip",
+      "name": "Mage Hand",
+      "ritual": "no",
+      "duration": "1 minute",
+      "source": "phb 256",
+      "components": "VS",
+      "range": "30 feet",
+      "concentration": "no",
+      "time": "1 action",
+      "id": "249"
+    },
+    {
+      "components": "VS",
+      "range": "60 feet",
+      "time": "1 action",
+      "concentration": "no",
+      "school": "Necromancy",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Warlock": "yes"
+      },
+      "name": "Finger of Death",
+      "level": "7th",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "phb 241",
+      "id": "250"
+    },
+    {
+      "school": "Transmutation",
+      "class": {
+        "Sorcerer": "yes",
+        "Wizard": "yes",
+        "Druid": "yes"
+      },
+      "name": "Move Earth",
+      "level": "6th",
+      "duration": "up to 2 hours",
+      "ritual": "no",
+      "source": "phb 263",
+      "components": "VSM",
+      "range": "120 feet",
+      "time": "1 action",
+      "concentration": "yes",
+      "id": "251"
+    },
+    {
+      "range": "Self",
+      "components": "VSM",
+      "concentration": "yes",
+      "time": "1 action",
+      "level": "3rd",
+      "name": "Spirit Guardians",
+      "school": "Conjuration",
+      "class": {
+        "Cleric": "yes"
+      },
+      "source": "phb 278",
+      "ritual": "no",
+      "duration": "up to 10 minutes",
+      "id": "252"
+    },
+    {
+      "ritual": "no",
+      "duration": "1 hour",
+      "source": "phb 283",
+      "school": "Divination",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Cleric": "yes",
+        "Warlock": "yes",
+        "Bard": "yes"
+      },
+      "level": "3rd",
+      "name": "Tongues",
+      "concentration": "no",
+      "time": "1 action",
+      "components": "VM",
+      "range": "Touch",
+      "id": "253"
+    },
+    {
+      "source": "phb 287",
+      "ritual": "yes",
+      "duration": "1 hour",
+      "level": "3rd",
+      "name": "Water Walk",
+      "class": {
+        "Ranger": "yes",
+        "Sorcerer": "yes",
+        "Cleric": "yes",
+        "Artificer": "yes",
+        "Druid": "yes"
+      },
+      "school": "Transmutation",
+      "concentration": "no",
+      "time": "1 action",
+      "range": "30 feet",
+      "components": "VSM",
+      "id": "254"
+    },
+    {
+      "components": "VSMgp",
+      "range": "100 feet",
+      "concentration": "no",
+      "time": "1 action",
+      "class": {
+        "Warlock": "yes",
+        "Wizard": "yes",
+        "Bard": "yes"
+      },
+      "school": "Evocation",
+      "level": "7th",
+      "name": "Forcecage",
+      "ritual": "no",
+      "duration": "1 hour",
+      "source": "phb 243",
+      "id": "255"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "components": "S",
+      "range": "5 feet",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "ee 22, xge 168",
+      "school": "Evocation",
+      "class": {
+        "Bard": "yes",
+        "Wizard": "yes",
+        "Druid": "yes",
+        "Sorcerer": "yes",
+        "Warlock": "yes",
+        "Artificer": "yes"
+      },
+      "name": "Thunderclap",
+      "level": "Cantrip",
+      "id": "256"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "components": "VS",
+      "range": "Touch",
+      "ritual": "no",
+      "duration": "8 hours",
+      "source": "phb 230",
+      "school": "Abjuration",
+      "class": {
+        "Paladin": "yes",
+        "Cleric": "yes"
+      },
+      "level": "4th",
+      "name": "Death Ward",
+      "id": "257"
+    },
+    {
+      "ritual": "no",
+      "duration": "up to 10 minutes",
+      "source": "phb 287",
+      "school": "Evocation",
+      "class": {
+        "Druid": "yes",
+        "Wizard": "yes",
+        "Artificer": "yes",
+        "Sorcerer": "yes"
+      },
+      "level": "5th",
+      "name": "Wall of Stone",
+      "concentration": "yes",
+      "time": "1 action",
+      "components": "VSM",
+      "range": "120 feet",
+      "id": "258"
+    },
+    {
+      "components": "VSMgp",
+      "range": "Touch",
+      "time": "1 minute",
+      "concentration": "no",
+      "class": {
+        "Bard": "yes",
+        "Wizard": "yes",
+        "Artificer": "yes"
+      },
+      "school": "Divination",
+      "level": "1st",
+      "name": "Identify",
+      "ritual": "yes",
+      "duration": "Instantaneous",
+      "source": "phb 252",
+      "id": "259"
+    },
+    {
+      "source": "xge 154",
+      "duration": "24 hours",
+      "ritual": "no",
+      "name": "Druid Grove",
+      "level": "6th",
+      "school": "Abjuration",
+      "class": {
+        "Druid": "yes"
+      },
+      "time": "10 minutes",
+      "concentration": "no",
+      "range": "Touch",
+      "components": "VSM",
+      "id": "260"
+    },
+    {
+      "components": "V",
+      "range": "Self",
+      "time": "1 bonus action",
+      "concentration": "yes",
+      "class": {
+        "Wizard": "yes",
+        "Warlock": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Conjuration",
+      "name": "Far Step",
+      "level": "5th",
+      "duration": "1 minute",
+      "ritual": "no",
+      "source": "xge 155",
+      "id": "261"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "VSM",
+      "range": "60 feet",
+      "duration": "10 minutes",
+      "ritual": "no",
+      "source": "ee 23, xge 170",
+      "school": "Evocation",
+      "class": {
+        "Sorcerer": "yes",
+        "Druid": "yes",
+        "Wizard": "yes"
+      },
+      "name": "Wall of Water",
+      "level": "3rd",
+      "id": "262"
+    },
+    {
+      "level": "1st",
+      "name": "Burning Hands",
+      "class": {
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Evocation",
+      "source": "phb 220",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "range": "Self",
+      "components": "VS",
+      "time": "1 action",
+      "concentration": "no",
+      "id": "263"
+    },
+    {
+      "ritual": "yes",
+      "duration": "10 days",
+      "source": "phb 252",
+      "school": "Illusion",
+      "class": {
+        "Wizard": "yes",
+        "Warlock": "yes",
+        "Bard": "yes"
+      },
+      "level": "1st",
+      "name": "Illusory Script",
+      "concentration": "no",
+      "time": "1 minute",
+      "components": "SMgp",
+      "range": "Touch",
+      "id": "264"
+    },
+    {
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "phb 279",
+      "class": {
+        "Druid": "yes",
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Evocation",
+      "level": "8th",
+      "name": "Sunburst",
+      "concentration": "no",
+      "time": "1 action",
+      "components": "VSM",
+      "range": "150 feet",
+      "id": "265"
+    },
+    {
+      "range": "Self",
+      "components": "VS",
+      "time": "1 bonus action",
+      "concentration": "yes",
+      "name": "Lightning Arrow",
+      "level": "3rd",
+      "class": {
+        "Ranger": "yes"
+      },
+      "school": "Transmutation",
+      "source": "phb 255",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "id": "266"
+    },
+    {
+      "range": "30 feet",
+      "components": "VSM",
+      "concentration": "no",
+      "time": "1 action",
+      "level": "Cantrip",
+      "name": "Thorn Whip",
+      "school": "Transmutation",
+      "class": {
+        "Artificer": "yes",
+        "Druid": "yes"
+      },
+      "source": "phb 282",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "id": "267"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "VSM",
+      "range": "90 feet",
+      "ritual": "no",
+      "duration": "10 minutes",
+      "source": "ee 23, xge 170",
+      "class": {
+        "Wizard": "yes"
+      },
+      "school": "Evocation",
+      "level": "3rd",
+      "name": "Wall of Sand",
+      "id": "268"
+    },
+    {
+      "school": "Abjuration",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "level": "1st",
+      "name": "Mage Armor",
+      "ritual": "no",
+      "duration": "8 hours",
+      "source": "phb 256",
+      "components": "VSM",
+      "range": "Touch",
+      "concentration": "no",
+      "time": "1 action",
+      "id": "269"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "range": "Unlimited",
+      "components": "VSM",
+      "source": "phb 274",
+      "duration": "1 round",
+      "ritual": "no",
+      "name": "Sending",
+      "level": "3rd",
+      "class": {
+        "Wizard": "yes",
+        "Cleric": "yes",
+        "Bard": "yes"
+      },
+      "school": "Evocation",
+      "id": "270"
+    },
+    {
+      "school": "Necromancy",
+      "class": {
+        "Warlock": "yes",
+        "Cleric": "yes",
+        "Wizard": "yes"
+      },
+      "level": "6th",
+      "name": "Create Undead",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "phb 229",
+      "components": "VSMgp",
+      "range": "10 feet",
+      "concentration": "no",
+      "time": "1 minute",
+      "id": "271"
+    },
+    {
+      "components": "VS",
+      "range": "60 feet",
+      "time": "1 action",
+      "concentration": "yes",
+      "school": "Enchantment",
+      "class": {
+        "Bard": "yes",
+        "Cleric": "yes"
+      },
+      "name": "Calm Emotions",
+      "level": "2nd",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 221",
+      "id": "272"
+    },
+    {
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "xge 163",
+      "school": "Transmutation",
+      "class": {
+        "Druid": "yes"
+      },
+      "name": "Primal Savagery",
+      "level": "Cantrip",
+      "concentration": "no",
+      "time": "1 action",
+      "components": "S",
+      "range": "Self",
+      "id": "273"
+    },
+    {
+      "duration": "up to 1 hour",
+      "ritual": "no",
+      "source": "phb 226",
+      "school": "Conjuration",
+      "class": {
+        "Druid": "yes",
+        "Wizard": "yes"
+      },
+      "name": "Conjure Minor Elementals",
+      "level": "4th",
+      "time": "1 minute",
+      "concentration": "yes",
+      "components": "VS",
+      "range": "90 feet",
+      "id": "274"
+    },
+    {
+      "school": "Divination",
+      "class": {
+        "Ranger": "yes",
+        "Bard": "yes",
+        "Paladin": "yes",
+        "Sorcerer": "yes",
+        "Artificer": "yes",
+        "Cleric": "yes",
+        "Wizard": "yes",
+        "Druid": "yes"
+      },
+      "level": "1st",
+      "name": "Detect Magic",
+      "ritual": "yes",
+      "duration": "up to 10 minutes",
+      "source": "phb 231",
+      "components": "VS",
+      "range": "Self",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "275"
+    },
+    {
+      "class": {
+        "Wizard": "yes"
+      },
+      "school": "Transmutation",
+      "name": "Create Homunculus",
+      "level": "6th",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "xge 152",
+      "components": "VSMgp",
+      "range": "Touch",
+      "time": "1 hour",
+      "concentration": "no",
+      "id": "276"
+    },
+    {
+      "school": "Evocation",
+      "class": {
+        "Bard": "yes",
+        "Druid": "yes",
+        "Artificer": "yes"
+      },
+      "name": "Faerie Fire",
+      "level": "1st",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 239",
+      "components": "V",
+      "range": "60 feet",
+      "time": "1 action",
+      "concentration": "yes",
+      "id": "277"
+    },
+    {
+      "level": "8th",
+      "name": "Holy Aura",
+      "class": {
+        "Cleric": "yes"
+      },
+      "school": "Abjuration",
+      "source": "phb 251",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "range": "Self",
+      "components": "VSMgp",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "278"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 action",
+      "components": "V",
+      "range": "Self",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "source": "phb 219",
+      "class": {
+        "Wizard": "yes",
+        "Artificer": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Illusion",
+      "level": "2nd",
+      "name": "Blur",
+      "id": "279"
+    },
+    {
+      "class": {
+        "Bard": "yes",
+        "Druid": "yes",
+        "Cleric": "yes"
+      },
+      "school": "Divination",
+      "level": "6th",
+      "name": "Find the Path",
+      "ritual": "no",
+      "duration": "up to 24 hours",
+      "source": "phb 240",
+      "components": "VSMgp",
+      "range": "Self",
+      "time": "1 minute",
+      "concentration": "yes",
+      "id": "280"
+    },
+    {
+      "source": "xge 171",
+      "ritual": "no",
+      "duration": "1 minute",
+      "level": "5th",
+      "name": "Wrath of Nature",
+      "class": {
+        "Ranger": "yes",
+        "Druid": "yes"
+      },
+      "school": "Evocation",
+      "concentration": "yes",
+      "time": "1 action",
+      "range": "120 feet",
+      "components": "VS",
+      "id": "281"
+    },
+    {
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "phb 212",
+      "class": {
+        "Wizard": "yes",
+        "Cleric": "yes"
+      },
+      "school": "Necromancy",
+      "name": "Animate Dead",
+      "level": "3rd",
+      "concentration": "no",
+      "time": "1 minute",
+      "components": "VSM",
+      "range": "10 feet",
+      "id": "282"
+    },
+    {
+      "components": "VSM",
+      "range": "90 feet",
+      "time": "1 minute",
+      "concentration": "yes",
+      "school": "Conjuration",
+      "class": {
+        "Wizard": "yes",
+        "Druid": "yes"
+      },
+      "level": "5th",
+      "name": "Conjure Elemental",
+      "ritual": "no",
+      "duration": "up to 1 hour",
+      "source": "phb 225",
+      "id": "283"
+    },
+    {
+      "source": "phb 211",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "name": "Acid Splash",
+      "level": "Cantrip",
+      "school": "Conjuration",
+      "class": {
+        "Sorcerer": "yes",
+        "Artificer": "yes",
+        "Wizard": "yes"
+      },
+      "time": "1 action",
+      "concentration": "no",
+      "range": "60 feet",
+      "components": "VS",
+      "id": "284"
+    },
+    {
+      "source": "phb 231",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "level": "2nd",
+      "name": "Detect Thoughts",
+      "school": "Divination",
+      "class": {
+        "Sorcerer": "yes",
+        "Wizard": "yes",
+        "Bard": "yes"
+      },
+      "time": "1 action",
+      "concentration": "yes",
+      "range": "Self",
+      "components": "VSM",
+      "id": "285"
+    },
+    {
+      "school": "Enchantment",
+      "class": {
+        "Bard": "yes",
+        "Warlock": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "level": "9th",
+      "name": "Power Word Kill",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "phb 266",
+      "components": "V",
+      "range": "60 feet",
+      "time": "1 action",
+      "concentration": "no",
+      "id": "286"
+    },
+    {
+      "level": "9th",
+      "name": "Time Stop",
+      "school": "Transmutation",
+      "class": {
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "source": "phb 283",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "range": "Self",
+      "components": "V",
+      "time": "1 action",
+      "concentration": "no",
+      "id": "287"
+    },
+    {
+      "time": "1 action",
+      "concentration": "no",
+      "range": "30 feet",
+      "components": "SM",
+      "source": "phb 260",
+      "duration": "1 minute",
+      "ritual": "no",
+      "name": "Minor Illusion",
+      "level": "Cantrip",
+      "school": "Illusion",
+      "class": {
+        "Bard": "yes",
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Warlock": "yes"
+      },
+      "id": "288"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "range": "Self",
+      "components": "VSM",
+      "source": "phb 256",
+      "duration": "up to 10 minutes",
+      "ritual": "no",
+      "name": "Locate Object",
+      "level": "2nd",
+      "school": "Divination",
+      "class": {
+        "Wizard": "yes",
+        "Druid": "yes",
+        "Cleric": "yes",
+        "Paladin": "yes",
+        "Ranger": "yes",
+        "Bard": "yes"
+      },
+      "id": "289"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 action",
+      "components": "VS",
+      "range": "Touch",
+      "duration": "1 hour",
+      "ritual": "no",
+      "source": "ee 18, xge 156",
+      "school": "Transmutation",
+      "class": {
+        "Druid": "yes",
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Artificer": "yes",
+        "Ranger": "yes"
+      },
+      "name": "Flame Arrows",
+      "level": "3rd",
+      "id": "290"
+    },
+    {
+      "school": "Necromancy",
+      "class": {
+        "Warlock": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes",
+        "Bard": "yes"
+      },
+      "level": "6th",
+      "name": "Eyebite",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "source": "phb 238",
+      "components": "VS",
+      "range": "Self",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "291"
+    },
+    {
+      "components": "VSM",
+      "range": "5 feet",
+      "concentration": "no",
+      "time": "1 action",
+      "school": "Transmutation",
+      "class": {
+        "Ranger": "yes"
+      },
+      "name": "Cordon of Arrows",
+      "level": "2nd",
+      "duration": "8 hours",
+      "ritual": "no",
+      "source": "phb 228",
+      "id": "292"
+    },
+    {
+      "name": "Zone of Truth",
+      "level": "2nd",
+      "class": {
+        "Bard": "yes",
+        "Paladin": "yes",
+        "Cleric": "yes"
+      },
+      "school": "Enchantment",
+      "source": "phb 289",
+      "duration": "10 minutes",
+      "ritual": "no",
+      "range": "60 feet",
+      "components": "VS",
+      "concentration": "no",
+      "time": "1 action",
+      "id": "293"
+    },
+    {
+      "source": "phb 240",
+      "duration": "1 hour",
+      "ritual": "yes",
+      "name": "Feign Death",
+      "level": "3rd",
+      "class": {
+        "Druid": "yes",
+        "Wizard": "yes",
+        "Cleric": "yes",
+        "Bard": "yes"
+      },
+      "school": "Necromancy",
+      "time": "1 action",
+      "concentration": "no",
+      "range": "Touch",
+      "components": "VSM",
+      "id": "294"
+    },
+    {
+      "level": "1st",
+      "name": "Witch Bolt",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Warlock": "yes"
+      },
+      "school": "Evocation",
+      "source": "phb 289",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "range": "30 feet",
+      "components": "VSM",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "295"
+    },
+    {
+      "time": "1 hour",
+      "concentration": "no",
+      "components": "VSMgp",
+      "range": "10 feet",
+      "duration": "Instantaneous",
+      "ritual": "yes",
+      "source": "phb 240",
+      "school": "Conjuration",
+      "class": {
+        "Wizard": "yes"
+      },
+      "name": "Find Familiar",
+      "level": "1st",
+      "id": "296"
+    },
+    {
+      "source": "ee 19, xge 158",
+      "ritual": "no",
+      "duration": "1 minute",
+      "level": "5th",
+      "name": "Immolation",
+      "class": {
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Evocation",
+      "time": "1 action",
+      "concentration": "yes",
+      "range": "90 feet",
+      "components": "V",
+      "id": "297"
+    },
+    {
+      "range": "90 feet",
+      "components": "VS",
+      "concentration": "yes",
+      "time": "1 minute",
+      "name": "Conjure Celestial",
+      "level": "7th",
+      "school": "Conjuration",
+      "class": {
+        "Cleric": "yes"
+      },
+      "source": "phb 225",
+      "duration": "up to 1 hour",
+      "ritual": "no",
+      "id": "298"
+    },
+    {
+      "range": "Touch",
+      "components": "VSM",
+      "time": "1 action",
+      "concentration": "no",
+      "name": "Longstrider",
+      "level": "1st",
+      "class": {
+        "Ranger": "yes",
+        "Bard": "yes",
+        "Druid": "yes",
+        "Wizard": "yes",
+        "Artificer": "yes"
+      },
+      "school": "Transmutation",
+      "source": "phb 256",
+      "duration": "1 hour",
+      "ritual": "no",
+      "id": "299"
+    },
+    {
+      "level": "1st",
+      "name": "Absorb Elements",
+      "school": "Abjuration",
+      "class": {
+        "Ranger": "yes",
+        "Druid": "yes",
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Artificer": "yes"
+      },
+      "source": "ee 15, xge 150",
+      "ritual": "no",
+      "duration": "1 round",
+      "range": "Self",
+      "components": "S",
+      "concentration": "no",
+      "time": "1 reaction",
+      "id": "300"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 action",
+      "range": "60 feet",
+      "components": "VSM",
+      "source": "phb 226",
+      "duration": "up to 1 hour",
+      "ritual": "no",
+      "name": "Conjure Woodland Beings",
+      "level": "4th",
+      "class": {
+        "Druid": "yes",
+        "Ranger": "yes"
+      },
+      "school": "Conjuration",
+      "id": "301"
+    },
+    {
+      "concentration": "no",
+      "time": "1 hour",
+      "range": "Touch",
+      "components": "VSMgp",
+      "source": "phb 284",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "level": "9th",
+      "name": "True Resurrection",
+      "school": "Necromancy",
+      "class": {
+        "Druid": "yes",
+        "Cleric": "yes"
+      },
+      "id": "302"
+    },
+    {
+      "components": "VSMgp",
+      "range": "Touch",
+      "concentration": "no",
+      "time": "1 hour",
+      "class": {
+        "Cleric": "yes",
+        "Paladin": "yes",
+        "Bard": "yes"
+      },
+      "school": "Necromancy",
+      "level": "5th",
+      "name": "Raise Dead",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "phb 270",
+      "id": "303"
+    },
+    {
+      "class": {
+        "Paladin": "yes"
+      },
+      "school": "Evocation",
+      "level": "5th",
+      "name": "Destructive Wave",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "phb 231",
+      "components": "V",
+      "range": "Self",
+      "concentration": "no",
+      "time": "1 action",
+      "id": "304"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "range": "Touch",
+      "components": "VSMgp",
+      "source": "phb 266",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "level": "7th",
+      "name": "Plane Shift",
+      "school": "Conjuration",
+      "class": {
+        "Wizard": "yes",
+        "Druid": "yes",
+        "Sorcerer": "yes",
+        "Cleric": "yes",
+        "Warlock": "yes"
+      },
+      "id": "305"
+    },
+    {
+      "school": "Evocation",
+      "class": {
+        "Bard": "yes",
+        "Druid": "yes",
+        "Cleric": "yes"
+      },
+      "name": "Mass Cure Wounds",
+      "level": "5th",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "phb 258",
+      "components": "VS",
+      "range": "60 feet",
+      "time": "1 action",
+      "concentration": "no",
+      "id": "306"
+    },
+    {
+      "components": "VSMgp",
+      "range": "60 feet",
+      "concentration": "yes",
+      "time": "1 action",
+      "class": {
+        "Cleric": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Conjuration",
+      "name": "Gate",
+      "level": "9th",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 244",
+      "id": "307"
+    },
+    {
+      "source": "phb 214",
+      "ritual": "no",
+      "duration": "up to 10 minutes",
+      "level": "6th",
+      "name": "Arcane Gate",
+      "class": {
+        "Warlock": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Conjuration",
+      "concentration": "yes",
+      "time": "1 action",
+      "range": "500 feet",
+      "components": "VS",
+      "id": "308"
+    },
+    {
+      "components": "V",
+      "range": "30 feet",
+      "time": "1 bonus action",
+      "concentration": "no",
+      "school": "Evocation",
+      "class": {
+        "Cleric": "yes"
+      },
+      "name": "Divine Word",
+      "level": "7th",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "phb 234",
+      "id": "309"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "range": "60 feet",
+      "components": "V",
+      "source": "phb 223",
+      "duration": "1 round",
+      "ritual": "no",
+      "name": "Command",
+      "level": "1st",
+      "school": "Enchantment",
+      "class": {
+        "Paladin": "yes",
+        "Cleric": "yes"
+      },
+      "id": "310"
+    },
+    {
+      "name": "Entangle",
+      "level": "1st",
+      "school": "Conjuration",
+      "class": {
+        "Druid": "yes"
+      },
+      "source": "phb 238",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "range": "90 feet",
+      "components": "VS",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "311"
+    },
+    {
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "ee 15, xge 150",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Necromancy",
+      "name": "Abi-Dalzim's Horrid Wilting",
+      "level": "8th",
+      "time": "1 action",
+      "concentration": "no",
+      "components": "VSM",
+      "range": "150 feet",
+      "id": "312"
+    },
+    {
+      "source": "phb 231",
+      "duration": "up to 10 minutes",
+      "ritual": "yes",
+      "name": "Detect Poison and Disease",
+      "level": "1st",
+      "class": {
+        "Ranger": "yes",
+        "Paladin": "yes",
+        "Cleric": "yes",
+        "Druid": "yes"
+      },
+      "school": "Divination",
+      "concentration": "yes",
+      "time": "1 action",
+      "range": "Self",
+      "components": "VSM",
+      "id": "313"
+    },
+    {
+      "source": "phb 229",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "level": "2nd",
+      "name": "Crown of Madness",
+      "class": {
+        "Bard": "yes",
+        "Sorcerer": "yes",
+        "Warlock": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Enchantment",
+      "time": "1 action",
+      "concentration": "yes",
+      "range": "120 feet",
+      "components": "VS",
+      "id": "314"
+    },
+    {
+      "components": "VSMgp",
+      "range": "Touch",
+      "concentration": "no",
+      "time": "1 action",
+      "school": "Transmutation",
+      "class": {
+        "Wizard": "yes"
+      },
+      "level": "7th",
+      "name": "Sequester",
+      "ritual": "no",
+      "duration": "Until dispelled",
+      "source": "phb 274",
+      "id": "315"
+    },
+    {
+      "duration": "1 hour",
+      "ritual": "no",
+      "source": "xge 166",
+      "class": {
+        "Warlock": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Conjuration",
+      "name": "Summon Greater Demon",
+      "level": "4th",
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "VSM",
+      "range": "60 feet",
+      "id": "316"
+    },
+    {
+      "source": "phb 257",
+      "duration": "Until dispelled",
+      "ritual": "yes",
+      "name": "Magic Mouth",
+      "level": "2nd",
+      "school": "Illusion",
+      "class": {
+        "Bard": "yes",
+        "Wizard": "yes",
+        "Artificer": "yes"
+      },
+      "time": "1 minute",
+      "concentration": "no",
+      "range": "30 feet",
+      "components": "VSMgp",
+      "id": "317"
+    },
+    {
+      "school": "Abjuration",
+      "class": {
+        "Artificer": "yes",
+        "Cleric": "yes"
+      },
+      "name": "Sanctuary",
+      "level": "1st",
+      "duration": "1 minute",
+      "ritual": "no",
+      "source": "phb 272",
+      "components": "VSM",
+      "range": "30 feet",
+      "time": "1 bonus action",
+      "concentration": "no",
+      "id": "318"
+    },
+    {
+      "range": "30 feet",
+      "components": "VS",
+      "time": "1 action",
+      "concentration": "no",
+      "name": "Blight",
+      "level": "4th",
+      "class": {
+        "Sorcerer": "yes",
+        "Warlock": "yes",
+        "Druid": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Necromancy",
+      "source": "phb 219",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "id": "319"
+    },
+    {
+      "components": "VS",
+      "range": "60 feet",
+      "time": "1 action",
+      "concentration": "no",
+      "school": "Evocation",
+      "class": {
+        "Cleric": "yes"
+      },
+      "level": "Cantrip",
+      "name": "Sacred Flame",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "phb 272",
+      "id": "320"
+    },
+    {
+      "range": "30 feet",
+      "components": "VS",
+      "time": "1 action",
+      "concentration": "no",
+      "name": "Create Food and Water",
+      "level": "3rd",
+      "class": {
+        "Paladin": "yes",
+        "Artificer": "yes",
+        "Cleric": "yes"
+      },
+      "school": "Conjuration",
+      "source": "phb 229",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "id": "321"
+    },
+    {
+      "source": "ee 19, xge 159",
+      "ritual": "no",
+      "duration": "10 minutes",
+      "level": "6th",
+      "name": "Investiture of Flame",
+      "school": "Transmutation",
+      "class": {
+        "Sorcerer": "yes",
+        "Warlock": "yes",
+        "Druid": "yes",
+        "Wizard": "yes"
+      },
+      "concentration": "yes",
+      "time": "1 action",
+      "range": "Self",
+      "components": "VS",
+      "id": "322"
+    },
+    {
+      "range": "Self",
+      "components": "VSM",
+      "time": "1 action",
+      "concentration": "no",
+      "name": "False Life",
+      "level": "1st",
+      "school": "Necromancy",
+      "class": {
+        "Sorcerer": "yes",
+        "Artificer": "yes",
+        "Wizard": "yes"
+      },
+      "source": "phb 239",
+      "duration": "1 hour",
+      "ritual": "no",
+      "id": "323"
+    },
+    {
+      "name": "Dancing Lights",
+      "level": "Cantrip",
+      "school": "Evocation",
+      "class": {
+        "Bard": "yes",
+        "Wizard": "yes",
+        "Artificer": "yes",
+        "Sorcerer": "yes"
+      },
+      "source": "phb 230",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "range": "120 feet",
+      "components": "VSM",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "324"
+    },
+    {
+      "name": "Contact Other Plane",
+      "level": "5th",
+      "class": {
+        "Wizard": "yes",
+        "Warlock": "yes"
+      },
+      "school": "Divination",
+      "source": "phb 226",
+      "duration": "1 minute",
+      "ritual": "yes",
+      "range": "Self",
+      "components": "V",
+      "time": "1 minute",
+      "concentration": "no",
+      "id": "325"
+    },
+    {
+      "concentration": "no",
+      "time": "10 minutes",
+      "components": "VS",
+      "range": "30 feet",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "phb 240",
+      "school": "Conjuration",
+      "class": {
+        "Paladin": "yes"
+      },
+      "name": "Find Steed",
+      "level": "2nd",
+      "id": "326"
+    },
+    {
+      "range": "Touch",
+      "components": "VSM",
+      "time": "1 bonus action",
+      "concentration": "yes",
+      "level": "5th",
+      "name": "Swift Quiver",
+      "class": {
+        "Ranger": "yes"
+      },
+      "school": "Transmutation",
+      "source": "phb 279",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "id": "327"
+    },
+    {
+      "time": "1 action",
+      "concentration": "no",
+      "range": "120 feet",
+      "components": "VS",
+      "source": "phb 234",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "name": "Dispel Magic",
+      "level": "3rd",
+      "school": "Abjuration",
+      "class": {
+        "Sorcerer": "yes",
+        "Cleric": "yes",
+        "Warlock": "yes",
+        "Artificer": "yes",
+        "Druid": "yes",
+        "Wizard": "yes",
+        "Bard": "yes",
+        "Paladin": "yes"
+      },
+      "id": "328"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "range": "Self",
+      "components": "VS",
+      "source": "ee 19, xge 159",
+      "ritual": "no",
+      "duration": "10 minutes",
+      "level": "6th",
+      "name": "Investiture of Ice",
+      "school": "Transmutation",
+      "class": {
+        "Sorcerer": "yes",
+        "Warlock": "yes",
+        "Wizard": "yes",
+        "Druid": "yes"
+      },
+      "id": "329"
+    },
+    {
+      "class": {
+        "Sorcerer": "yes",
+        "Warlock": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Conjuration",
+      "level": "Cantrip",
+      "name": "Sword Burst",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "scag 143",
+      "components": "V",
+      "range": "5 feet",
+      "time": "1 action",
+      "concentration": "no",
+      "id": "330"
+    },
+    {
+      "components": "VSM",
+      "range": "30 feet",
+      "time": "1 action",
+      "concentration": "no",
+      "school": "Conjuration",
+      "class": {
+        "Wizard": "yes",
+        "Artificer": "yes"
+      },
+      "level": "4th",
+      "name": "Mordenkainen's Faithful Hound",
+      "ritual": "no",
+      "duration": "8 hours",
+      "source": "phb 261",
+      "id": "331"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "range": "Self",
+      "components": "VSM",
+      "source": "phb 239",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "name": "Fear",
+      "level": "3rd",
+      "school": "Illusion",
+      "class": {
+        "Wizard": "yes",
+        "Warlock": "yes",
+        "Sorcerer": "yes",
+        "Bard": "yes"
+      },
+      "id": "332"
+    },
+    {
+      "name": "Remove Curse",
+      "level": "3rd",
+      "school": "Abjuration",
+      "class": {
+        "Warlock": "yes",
+        "Cleric": "yes",
+        "Wizard": "yes",
+        "Paladin": "yes"
+      },
+      "source": "phb 271",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "range": "Touch",
+      "components": "VS",
+      "concentration": "no",
+      "time": "1 action",
+      "id": "333"
+    },
+    {
+      "class": {
+        "Bard": "yes",
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Warlock": "yes"
+      },
+      "school": "Enchantment",
+      "level": "6th",
+      "name": "Mass Suggestion",
+      "ritual": "no",
+      "duration": "24 hours",
+      "source": "phb 258",
+      "components": "VM",
+      "range": "60 feet",
+      "time": "1 action",
+      "concentration": "no",
+      "id": "334"
+    },
+    {
+      "source": "phb 271",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "name": "Ray of Sickness",
+      "level": "1st",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Necromancy",
+      "time": "1 action",
+      "concentration": "no",
+      "range": "60 feet",
+      "components": "VS",
+      "id": "335"
+    },
+    {
+      "name": "True Strike",
+      "level": "Cantrip",
+      "school": "Divination",
+      "class": {
+        "Bard": "yes",
+        "Wizard": "yes",
+        "Warlock": "yes",
+        "Sorcerer": "yes"
+      },
+      "source": "phb 284",
+      "duration": "up to 1 round",
+      "ritual": "no",
+      "range": "30 feet",
+      "components": "S",
+      "time": "1 action",
+      "concentration": "yes",
+      "id": "336"
+    },
+    {
+      "source": "phb 244",
+      "ritual": "no",
+      "duration": "30 days",
+      "level": "5th",
+      "name": "Geas",
+      "school": "Enchantment",
+      "class": {
+        "Bard": "yes",
+        "Paladin": "yes",
+        "Cleric": "yes",
+        "Wizard": "yes",
+        "Druid": "yes"
+      },
+      "concentration": "no",
+      "time": "1 minute",
+      "range": "60 feet",
+      "components": "V",
+      "id": "337"
+    },
+    {
+      "components": "VS",
+      "range": "Self",
+      "concentration": "yes",
+      "time": "1 action",
+      "school": "Transmutation",
+      "class": {
+        "Wizard": "yes",
+        "Artificer": "yes",
+        "Sorcerer": "yes"
+      },
+      "name": "Alter Self",
+      "level": "2nd",
+      "duration": "up to 1 hour",
+      "ritual": "no",
+      "source": "phb 211",
+      "id": "338"
+    },
+    {
+      "level": "5th",
+      "name": "Bigby's Hand",
+      "school": "Evocation",
+      "class": {
+        "Artificer": "yes",
+        "Wizard": "yes"
+      },
+      "source": "phb 218",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "range": "120 feet",
+      "components": "VSM",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "339"
+    },
+    {
+      "school": "Conjuration",
+      "class": {
+        "Cleric": "yes"
+      },
+      "name": "Word of Recall",
+      "level": "6th",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "phb 289",
+      "components": "V",
+      "range": "5 feet",
+      "time": "1 action",
+      "concentration": "no",
+      "id": "340"
+    },
+    {
+      "source": "phb 219",
+      "ritual": "no",
+      "duration": "1 minute",
+      "level": "2nd",
+      "name": "Blindness/Deafness",
+      "class": {
+        "Wizard": "yes",
+        "Cleric": "yes",
+        "Sorcerer": "yes",
+        "Bard": "yes"
+      },
+      "school": "Necromancy",
+      "concentration": "no",
+      "time": "1 action",
+      "range": "30 feet",
+      "components": "V",
+      "id": "341"
+    },
+    {
+      "name": "Hunger of Hadar",
+      "level": "3rd",
+      "class": {
+        "Warlock": "yes"
+      },
+      "school": "Conjuration",
+      "source": "phb 251",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "range": "150 feet",
+      "components": "VSM",
+      "time": "1 action",
+      "concentration": "yes",
+      "id": "342"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "range": "60 feet",
+      "components": "VSMgp",
+      "source": "phb 262",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "level": "7th",
+      "name": "Mordenkainen's Sword",
+      "school": "Evocation",
+      "class": {
+        "Bard": "yes",
+        "Wizard": "yes"
+      },
+      "id": "343"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 action",
+      "range": "60 feet",
+      "components": "VS",
+      "source": "phb 258",
+      "duration": "up to 10 minutes",
+      "ritual": "no",
+      "name": "Maze",
+      "level": "8th",
+      "school": "Conjuration",
+      "class": {
+        "Wizard": "yes"
+      },
+      "id": "344"
+    },
+    {
+      "ritual": "no",
+      "duration": "1 minute",
+      "source": "xge 155",
+      "school": "Necromancy",
+      "class": {
+        "Warlock": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "level": "5th",
+      "name": "Enervation",
+      "concentration": "yes",
+      "time": "1 action",
+      "components": "VS",
+      "range": "60 feet",
+      "id": "345"
+    },
+    {
+      "ritual": "no",
+      "duration": "10 minutes",
+      "source": "ee 19, xge 159",
+      "class": {
+        "Wizard": "yes",
+        "Druid": "yes",
+        "Sorcerer": "yes",
+        "Warlock": "yes"
+      },
+      "school": "Transmutation",
+      "level": "6th",
+      "name": "Investiture of Stone",
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "VS",
+      "range": "Self",
+      "id": "346"
+    },
+    {
+      "concentration": "yes",
+      "time": "10 minutes",
+      "range": "Self",
+      "components": "VSM",
+      "source": "phb 228",
+      "duration": "up to 8 hours",
+      "ritual": "no",
+      "name": "Control Weather",
+      "level": "8th",
+      "class": {
+        "Cleric": "yes",
+        "Druid": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Transmutation",
+      "id": "347"
+    },
+    {
+      "class": {
+        "Cleric": "yes",
+        "Druid": "yes"
+      },
+      "school": "Transmutation",
+      "name": "Meld into Stone",
+      "level": "3rd",
+      "duration": "8 hours",
+      "ritual": "yes",
+      "source": "phb 259",
+      "components": "VS",
+      "range": "Touch",
+      "time": "1 action",
+      "concentration": "no",
+      "id": "348"
+    },
+    {
+      "components": "VS",
+      "range": "120 feet",
+      "concentration": "yes",
+      "time": "1 action",
+      "school": "Transmutation",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Artificer": "yes",
+        "Bard": "yes"
+      },
+      "name": "Animate Objects",
+      "level": "5th",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 213",
+      "id": "349"
+    },
+    {
+      "time": "1 minute",
+      "concentration": "no",
+      "components": "VS",
+      "range": "30 feet",
+      "duration": "1 hour",
+      "ritual": "yes",
+      "source": "phb 265",
+      "class": {
+        "Wizard": "yes"
+      },
+      "school": "Illusion",
+      "name": "Phantom Steed",
+      "level": "3rd",
+      "id": "350"
+    },
+    {
+      "range": "90 feet",
+      "components": "VSM",
+      "time": "1 action",
+      "concentration": "yes",
+      "name": "Watery Sphere",
+      "level": "4th",
+      "school": "Conjuration",
+      "class": {
+        "Sorcerer": "yes",
+        "Druid": "yes",
+        "Wizard": "yes"
+      },
+      "source": "ee 23, xge 170",
+      "duration": "1 minute",
+      "ritual": "no",
+      "id": "351"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "range": "Self",
+      "components": "VSM",
+      "source": "phb 256",
+      "ritual": "yes",
+      "duration": "Instantaneous",
+      "level": "2nd",
+      "name": "Locate Animals or Plants",
+      "class": {
+        "Ranger": "yes",
+        "Bard": "yes",
+        "Druid": "yes"
+      },
+      "school": "Divination",
+      "id": "352"
+    },
+    {
+      "level": "6th",
+      "name": "Wall of Ice",
+      "school": "Evocation",
+      "class": {
+        "Wizard": "yes"
+      },
+      "source": "phb 285",
+      "ritual": "no",
+      "duration": "up to 10 minutes",
+      "range": "120 feet",
+      "components": "VSM",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "353"
+    },
+    {
+      "components": "VSM",
+      "range": "Touch",
+      "time": "1 action",
+      "concentration": "no",
+      "school": "Transmutation",
+      "class": {
+        "Artificer": "yes",
+        "Wizard": "yes"
+      },
+      "level": "2nd",
+      "name": "Rope Trick",
+      "ritual": "no",
+      "duration": "1 hour",
+      "source": "phb 272",
+      "id": "354"
+    },
+    {
+      "concentration": "no",
+      "time": "10 minutes",
+      "range": "120 feet",
+      "components": "VSM",
+      "source": "phb 262",
+      "duration": "24 hours",
+      "ritual": "no",
+      "name": "Mordenkainen's Private Sanctum",
+      "level": "4th",
+      "class": {
+        "Wizard": "yes",
+        "Artificer": "yes"
+      },
+      "school": "Abjuration",
+      "id": "355"
+    },
+    {
+      "range": "Self",
+      "components": "VSM",
+      "concentration": "yes",
+      "time": "1 action",
+      "name": "Pass without Trace",
+      "level": "2nd",
+      "school": "Abjuration",
+      "class": {
+        "Ranger": "yes",
+        "Druid": "yes"
+      },
+      "source": "phb 264",
+      "duration": "up to 1 hour",
+      "ritual": "no",
+      "id": "356"
+    },
+    {
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "ee 15, xge 150",
+      "school": "Transmutation",
+      "class": {
+        "Sorcerer": "yes",
+        "Artificer": "yes",
+        "Wizard": "yes"
+      },
+      "level": "1st",
+      "name": "Catapult",
+      "concentration": "no",
+      "time": "1 action",
+      "components": "S",
+      "range": "60 feet",
+      "id": "357"
+    },
+    {
+      "name": "Grasping Vine",
+      "level": "4th",
+      "class": {
+        "Ranger": "yes",
+        "Druid": "yes"
+      },
+      "school": "Conjuration",
+      "source": "phb 246",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "range": "30 feet",
+      "components": "VS",
+      "time": "1 bonus action",
+      "concentration": "yes",
+      "id": "358"
+    },
+    {
+      "source": "phb 264",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "level": "4th",
+      "name": "Otiluke's Resilient Sphere",
+      "class": {
+        "Artificer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Evocation",
+      "concentration": "yes",
+      "time": "1 action",
+      "range": "30 feet",
+      "components": "VSM",
+      "id": "359"
+    },
+    {
+      "components": "VSMgp",
+      "range": "Touch",
+      "time": "8 hours",
+      "concentration": "no",
+      "class": {
+        "Druid": "yes",
+        "Bard": "yes"
+      },
+      "school": "Transmutation",
+      "name": "Awaken",
+      "level": "5th",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "phb 216",
+      "id": "360"
+    },
+    {
+      "school": "Illusion",
+      "class": {
+        "Wizard": "yes",
+        "Warlock": "yes",
+        "Sorcerer": "yes"
+      },
+      "level": "2nd",
+      "name": "Shadow Blade",
+      "ritual": "no",
+      "duration": "1 minute",
+      "source": "xge 164",
+      "components": "VS",
+      "range": "Self",
+      "concentration": "yes",
+      "time": "1 bonus action",
+      "id": "361"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "components": "VSMgp",
+      "range": "90 feet",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "phb 221",
+      "school": "Evocation",
+      "class": {
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "name": "Chromatic Orb",
+      "level": "1st",
+      "id": "362"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 action",
+      "range": "120 feet",
+      "components": "VSM",
+      "source": "phb 285",
+      "ritual": "no",
+      "duration": "up to 10 minutes",
+      "level": "5th",
+      "name": "Wall of Force",
+      "class": {
+        "Wizard": "yes"
+      },
+      "school": "Evocation",
+      "id": "363"
+    },
+    {
+      "source": "phb 211",
+      "duration": "8 hours",
+      "ritual": "yes",
+      "name": "Alarm",
+      "level": "1st",
+      "school": "Abjuration",
+      "class": {
+        "Artificer": "yes",
+        "Wizard": "yes",
+        "Ranger": "yes"
+      },
+      "concentration": "no",
+      "time": "1 minute",
+      "range": "30 feet",
+      "components": "VSM",
+      "id": "364"
+    },
+    {
+      "class": {
+        "Bard": "yes",
+        "Warlock": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes",
+        "Druid": "yes"
+      },
+      "school": "Enchantment",
+      "level": "4th",
+      "name": "Charm Monster",
+      "ritual": "no",
+      "duration": "1 hour",
+      "source": "xge 151",
+      "components": "VS",
+      "range": "30 feet",
+      "concentration": "no",
+      "time": "1 action",
+      "id": "365"
+    },
+    {
+      "name": "Lesser Restoration",
+      "level": "2nd",
+      "school": "Abjuration",
+      "class": {
+        "Artificer": "yes",
+        "Cleric": "yes",
+        "Druid": "yes",
+        "Ranger": "yes",
+        "Bard": "yes",
+        "Paladin": "yes"
+      },
+      "source": "phb 255",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "range": "Touch",
+      "components": "VS",
+      "time": "1 action",
+      "concentration": "no",
+      "id": "366"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "range": "120 feet",
+      "components": "VS",
+      "source": "xge 151",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "name": "Chaos Bolt",
+      "level": "1st",
+      "class": {
+        "Sorcerer": "yes"
+      },
+      "school": "Evocation",
+      "id": "367"
+    },
+    {
+      "duration": "up to 1 hour",
+      "ritual": "no",
+      "source": "phb 225",
+      "school": "Conjuration",
+      "class": {
+        "Druid": "yes",
+        "Ranger": "yes"
+      },
+      "name": "Conjure Animals",
+      "level": "3rd",
+      "concentration": "yes",
+      "time": "1 action",
+      "components": "VS",
+      "range": "60 feet",
+      "id": "368"
+    },
+    {
+      "source": "phb 270",
+      "ritual": "no",
+      "duration": "up to 24 hours",
+      "level": "7th",
+      "name": "Project Image",
+      "school": "Illusion",
+      "class": {
+        "Bard": "yes",
+        "Wizard": "yes"
+      },
+      "concentration": "yes",
+      "time": "1 action",
+      "range": "500 miles",
+      "components": "VSMgp",
+      "id": "369"
+    },
+    {
+      "duration": "up to 1 hour",
+      "ritual": "no",
+      "source": "phb 244",
+      "school": "Transmutation",
+      "class": {
+        "Sorcerer": "yes",
+        "Warlock": "yes",
+        "Artificer": "yes",
+        "Wizard": "yes"
+      },
+      "name": "Gaseous Form",
+      "level": "3rd",
+      "concentration": "yes",
+      "time": "1 action",
+      "components": "VSM",
+      "range": "Touch",
+      "id": "370"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 bonus action",
+      "components": "VS",
+      "range": "Touch",
+      "ritual": "no",
+      "duration": "1 hour",
+      "source": "xge 157",
+      "school": "Evocation",
+      "class": {
+        "Cleric": "yes",
+        "Paladin": "yes"
+      },
+      "level": "5th",
+      "name": "Holy Weapon",
+      "id": "371"
+    },
+    {
+      "ritual": "no",
+      "duration": "up to 1 hour",
+      "source": "phb 213",
+      "class": {
+        "Wizard": "yes",
+        "Cleric": "yes"
+      },
+      "school": "Abjuration",
+      "level": "8th",
+      "name": "Antimagic Field",
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "VSM",
+      "range": "Self",
+      "id": "372"
+    },
+    {
+      "name": "Programmed Illusion",
+      "level": "6th",
+      "class": {
+        "Wizard": "yes",
+        "Bard": "yes"
+      },
+      "school": "Illusion",
+      "source": "phb 269",
+      "duration": "Until dispelled",
+      "ritual": "no",
+      "range": "120 feet",
+      "components": "VSMgp",
+      "concentration": "no",
+      "time": "1 action",
+      "id": "373"
+    },
+    {
+      "source": "phb 274",
+      "duration": "up to 1 hour",
+      "ritual": "no",
+      "name": "Shapechange",
+      "level": "9th",
+      "school": "Transmutation",
+      "class": {
+        "Druid": "yes",
+        "Wizard": "yes"
+      },
+      "time": "1 action",
+      "concentration": "yes",
+      "range": "Self",
+      "components": "VSMgp",
+      "id": "374"
+    },
+    {
+      "components": "VSM",
+      "range": "Self",
+      "time": "1 action",
+      "concentration": "yes",
+      "school": "Evocation",
+      "class": {
+        "Druid": "yes",
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "level": "6th",
+      "name": "Sunbeam",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "source": "phb 279",
+      "id": "375"
+    },
+    {
+      "school": "Abjuration",
+      "class": {
+        "Cleric": "yes",
+        "Warlock": "yes",
+        "Wizard": "yes",
+        "Paladin": "yes"
+      },
+      "level": "1st",
+      "name": "Protection from Evil and Good",
+      "ritual": "no",
+      "duration": "up to 10 minutes",
+      "source": "phb 270",
+      "components": "VSM",
+      "range": "Touch",
+      "time": "1 action",
+      "concentration": "yes",
+      "id": "376"
+    },
+    {
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "phb 278",
+      "school": "Transmutation",
+      "class": {
+        "Cleric": "yes",
+        "Artificer": "yes",
+        "Wizard": "yes",
+        "Druid": "yes"
+      },
+      "name": "Stone Shape",
+      "level": "4th",
+      "time": "1 action",
+      "concentration": "no",
+      "components": "VSM",
+      "range": "Touch",
+      "id": "377"
+    },
+    {
+      "ritual": "no",
+      "duration": "8 hours",
+      "source": "xge 165",
+      "class": {
+        "Warlock": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Necromancy",
+      "level": "6th",
+      "name": "Soul Cage",
+      "concentration": "no",
+      "time": "1 reaction",
+      "components": "VSMgp",
+      "range": "60 feet",
+      "id": "378"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "components": "VSM",
+      "range": "30 feet",
+      "duration": "24 hours",
+      "ritual": "yes",
+      "source": "phb 287",
+      "class": {
+        "Druid": "yes",
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Artificer": "yes",
+        "Ranger": "yes"
+      },
+      "school": "Transmutation",
+      "name": "Water Breathing",
+      "level": "3rd",
+      "id": "379"
+    },
+    {
+      "source": "ee 15, xge 150",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "level": "2nd",
+      "name": "Aganazzar's Scorcher",
+      "school": "Evocation",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "concentration": "no",
+      "time": "1 action",
+      "range": "30 feet",
+      "components": "VSM",
+      "id": "380"
+    },
+    {
+      "name": "Stoneskin",
+      "level": "4th",
+      "class": {
+        "Sorcerer": "yes",
+        "Artificer": "yes",
+        "Druid": "yes",
+        "Wizard": "yes",
+        "Ranger": "yes"
+      },
+      "school": "Abjuration",
+      "source": "phb 278",
+      "duration": "up to 1 hour",
+      "ritual": "no",
+      "range": "Touch",
+      "components": "VSMgp",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "381"
+    },
+    {
+      "range": "Touch",
+      "components": "VSMgp",
+      "time": "1 hour",
+      "concentration": "no",
+      "level": "5th",
+      "name": "Reincarnate",
+      "school": "Transmutation",
+      "class": {
+        "Druid": "yes"
+      },
+      "source": "phb 271",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "id": "382"
+    },
+    {
+      "time": "1 action",
+      "concentration": "no",
+      "range": "150 feet",
+      "components": "VSM",
+      "source": "phb 221",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "level": "6th",
+      "name": "Chain Lightning",
+      "school": "Evocation",
+      "class": {
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "id": "383"
+    },
+    {
+      "concentration": "no",
+      "time": "1 minute",
+      "components": "VMgp",
+      "range": "10 feet",
+      "duration": "1 round",
+      "ritual": "no",
+      "source": "phb 282",
+      "class": {
+        "Bard": "yes",
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Conjuration",
+      "name": "Teleportation Circle",
+      "level": "5th",
+      "id": "384"
+    },
+    {
+      "ritual": "no",
+      "duration": "up to 1 hour",
+      "source": "phb 260",
+      "class": {
+        "Wizard": "yes",
+        "Bard": "yes"
+      },
+      "school": "Illusion",
+      "level": "5th",
+      "name": "Mislead",
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "S",
+      "range": "Self",
+      "id": "385"
+    },
+    {
+      "source": "phb 214",
+      "ritual": "no",
+      "duration": "10 days",
+      "level": "8th",
+      "name": "Antipathy/Sympathy",
+      "class": {
+        "Wizard": "yes",
+        "Druid": "yes"
+      },
+      "school": "Enchantment",
+      "time": "1 hour",
+      "concentration": "no",
+      "range": "60 feet",
+      "components": "VSM",
+      "id": "386"
+    },
+    {
+      "level": "3rd",
+      "name": "Protection from Energy",
+      "school": "Abjuration",
+      "class": {
+        "Ranger": "yes",
+        "Wizard": "yes",
+        "Druid": "yes",
+        "Sorcerer": "yes",
+        "Cleric": "yes",
+        "Artificer": "yes"
+      },
+      "source": "phb 270",
+      "ritual": "no",
+      "duration": "up to 1 hour",
+      "range": "Touch",
+      "components": "VS",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "387"
+    },
+    {
+      "range": "Self",
+      "components": "VSM",
+      "concentration": "no",
+      "time": "1 minute",
+      "level": "5th",
+      "name": "Commune",
+      "class": {
+        "Cleric": "yes"
+      },
+      "school": "Divination",
+      "source": "phb 223",
+      "ritual": "yes",
+      "duration": "1 minute",
+      "id": "388"
+    },
+    {
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "phb 253",
+      "class": {
+        "Cleric": "yes"
+      },
+      "school": "Necromancy",
+      "name": "Inflict Wounds",
+      "level": "1st",
+      "time": "1 action",
+      "concentration": "no",
+      "components": "VS",
+      "range": "Touch",
+      "id": "389"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 action",
+      "components": "VS",
+      "range": "90 feet",
+      "ritual": "no",
+      "duration": "up to 10 minutes",
+      "source": "phb 218",
+      "school": "Evocation",
+      "class": {
+        "Cleric": "yes"
+      },
+      "level": "6th",
+      "name": "Blade Barrier",
+      "id": "390"
+    },
+    {
+      "name": "Life Transference",
+      "level": "3rd",
+      "class": {
+        "Wizard": "yes",
+        "Cleric": "yes"
+      },
+      "school": "Necromancy",
+      "source": "xge 160",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "range": "30 feet",
+      "components": "VS",
+      "time": "1 action",
+      "concentration": "no",
+      "id": "391"
+    },
+    {
+      "source": "phb 273",
+      "ritual": "no",
+      "duration": "up to 10 minutes",
+      "level": "5th",
+      "name": "Scrying",
+      "class": {
+        "Bard": "yes",
+        "Cleric": "yes",
+        "Warlock": "yes",
+        "Druid": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Divination",
+      "time": "10 minutes",
+      "concentration": "yes",
+      "range": "Self",
+      "components": "VSMgp",
+      "id": "392"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "range": "90 feet",
+      "components": "V",
+      "source": "xge 168",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "level": "3rd",
+      "name": "Thunder Step",
+      "class": {
+        "Warlock": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Conjuration",
+      "id": "393"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "components": "S",
+      "range": "30 feet",
+      "duration": "1 hour",
+      "ritual": "no",
+      "source": "ee 21, xge 162",
+      "class": {
+        "Wizard": "yes",
+        "Druid": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Transmutation",
+      "name": "Mold Earth",
+      "level": "Cantrip",
+      "id": "394"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "range": "60 feet",
+      "components": "VSM",
+      "source": "phb 217",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "level": "4th",
+      "name": "Banishment",
+      "school": "Abjuration",
+      "class": {
+        "Paladin": "yes",
+        "Sorcerer": "yes",
+        "Cleric": "yes",
+        "Warlock": "yes",
+        "Wizard": "yes"
+      },
+      "id": "395"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 bonus action",
+      "components": "V",
+      "range": "Self",
+      "duration": "1 minute",
+      "ritual": "no",
+      "source": "xge 171",
+      "class": {
+        "Ranger": "yes"
+      },
+      "school": "Transmutation",
+      "name": "Zephyr Strike",
+      "level": "1st",
+      "id": "396"
+    },
+    {
+      "ritual": "no",
+      "duration": "1 minute",
+      "source": "xge 164",
+      "class": {
+        "Warlock": "yes"
+      },
+      "school": "Necromancy",
+      "level": "4th",
+      "name": "Shadow of Moil",
+      "concentration": "yes",
+      "time": "1 action",
+      "components": "VSMgp",
+      "range": "Self",
+      "id": "397"
+    },
+    {
+      "level": "9th",
+      "name": "Mass Polymorph",
+      "school": "Transmutation",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Bard": "yes"
+      },
+      "source": "xge 160",
+      "ritual": "no",
+      "duration": "1 hour",
+      "range": "120 feet",
+      "components": "VSM",
+      "time": "1 action",
+      "concentration": "yes",
+      "id": "398"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "components": "VSM",
+      "range": "30 feet",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "xge 158",
+      "class": {
+        "Wizard": "yes",
+        "Druid": "yes",
+        "Sorcerer": "yes",
+        "Warlock": "yes"
+      },
+      "school": "Conjuration",
+      "name": "Infestation",
+      "level": "Cantrip",
+      "id": "399"
+    },
+    {
+      "level": "6th",
+      "name": "Guards and Wards",
+      "class": {
+        "Wizard": "yes",
+        "Bard": "yes"
+      },
+      "school": "Abjuration",
+      "source": "phb 248",
+      "ritual": "no",
+      "duration": "24 hours",
+      "range": "Touch",
+      "components": "VSMgp",
+      "concentration": "no",
+      "time": "10 minutes",
+      "id": "400"
+    },
+    {
+      "time": "1 action",
+      "concentration": "no",
+      "components": "VM",
+      "range": "5 feet",
+      "ritual": "no",
+      "duration": "1 round",
+      "source": "scag 142",
+      "class": {
+        "Wizard": "yes",
+        "Warlock": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Evocation",
+      "level": "Cantrip",
+      "name": "Booming Blade",
+      "id": "401"
+    },
+    {
+      "name": "Color Spray",
+      "level": "1st",
+      "school": "Illusion",
+      "class": {
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "source": "phb 222",
+      "duration": "1 round",
+      "ritual": "no",
+      "range": "Self",
+      "components": "VSM",
+      "time": "1 action",
+      "concentration": "no",
+      "id": "402"
+    },
+    {
+      "source": "ee 17, xge 154",
+      "ritual": "no",
+      "duration": "1 minute",
+      "level": "2nd",
+      "name": "Earthbind",
+      "class": {
+        "Druid": "yes",
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Warlock": "yes"
+      },
+      "school": "Transmutation",
+      "time": "1 action",
+      "concentration": "yes",
+      "range": "300 feet",
+      "components": "V",
+      "id": "403"
+    },
+    {
+      "range": "Self",
+      "components": "VS",
+      "time": "1 action",
+      "concentration": "no",
+      "name": "Disguise Self",
+      "level": "1st",
+      "school": "Illusion",
+      "class": {
+        "Bard": "yes",
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Artificer": "yes"
+      },
+      "source": "phb 233",
+      "duration": "1 hour",
+      "ritual": "no",
+      "id": "404"
+    },
+    {
+      "name": "Dissonant Whispers",
+      "level": "1st",
+      "school": "Enchantment",
+      "class": {
+        "Bard": "yes"
+      },
+      "source": "phb 234",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "range": "60 feet",
+      "components": "V",
+      "concentration": "no",
+      "time": "1 action",
+      "id": "405"
+    },
+    {
+      "concentration": "no",
+      "time": "1 minute",
+      "components": "VSMgp",
+      "range": "300 feet",
+      "duration": "24 hours",
+      "ritual": "no",
+      "source": "phb 261",
+      "school": "Conjuration",
+      "class": {
+        "Bard": "yes",
+        "Wizard": "yes"
+      },
+      "name": "Mordenkainen's Magnificent Mansion",
+      "level": "7th",
+      "id": "406"
+    },
+    {
+      "class": {
+        "Wizard": "yes"
+      },
+      "school": "Evocation",
+      "level": "6th",
+      "name": "Otiluke's Freezing Sphere",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "phb 263",
+      "components": "VSM",
+      "range": "300 feet",
+      "concentration": "no",
+      "time": "1 action",
+      "id": "407"
+    },
+    {
+      "components": "VS",
+      "range": "60 feet",
+      "time": "1 action",
+      "concentration": "no",
+      "school": "Evocation",
+      "class": {
+        "Sorcerer": "yes",
+        "Artificer": "yes",
+        "Wizard": "yes"
+      },
+      "level": "Cantrip",
+      "name": "Ray of Frost",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "phb 271",
+      "id": "408"
+    },
+    {
+      "range": "60 feet",
+      "components": "V",
+      "concentration": "yes",
+      "time": "1 action",
+      "level": "1st",
+      "name": "Cause Fear",
+      "class": {
+        "Wizard": "yes",
+        "Warlock": "yes"
+      },
+      "school": "Necromancy",
+      "source": "xge 151",
+      "ritual": "no",
+      "duration": "1 minute",
+      "id": "409"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "VSM",
+      "range": "60 feet",
+      "duration": "up to 1 hour",
+      "ritual": "no",
+      "source": "phb 266",
+      "class": {
+        "Bard": "yes",
+        "Druid": "yes",
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "school": "Transmutation",
+      "name": "Polymorph",
+      "level": "4th",
+      "id": "410"
+    },
+    {
+      "time": "1 action",
+      "concentration": "no",
+      "range": "500 feet",
+      "components": "V",
+      "source": "phb 233",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "name": "Dimension Door",
+      "level": "4th",
+      "class": {
+        "Warlock": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes",
+        "Bard": "yes"
+      },
+      "school": "Conjuration",
+      "id": "411"
+    },
+    {
+      "components": "VSMgp",
+      "range": "Touch",
+      "time": "1 hour",
+      "concentration": "no",
+      "class": {
+        "Wizard": "yes"
+      },
+      "school": "Necromancy",
+      "level": "8th",
+      "name": "Clone",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "phb 222",
+      "id": "412"
+    },
+    {
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "phb 230",
+      "class": {
+        "Artificer": "yes",
+        "Cleric": "yes",
+        "Druid": "yes",
+        "Ranger": "yes",
+        "Bard": "yes",
+        "Paladin": "yes"
+      },
+      "school": "Evocation",
+      "level": "1st",
+      "name": "Cure Wounds",
+      "concentration": "no",
+      "time": "1 action",
+      "components": "VS",
+      "range": "Touch",
+      "id": "413"
+    },
+    {
+      "range": "Touch",
+      "components": "VSMgp",
+      "concentration": "no",
+      "time": "24 hours",
+      "name": "Hallow",
+      "level": "5th",
+      "class": {
+        "Cleric": "yes"
+      },
+      "school": "Evocation",
+      "source": "phb 249",
+      "duration": "Until dispelled",
+      "ritual": "no",
+      "id": "414"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 action",
+      "components": "V",
+      "range": "Self",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 216",
+      "school": "Evocation",
+      "class": {
+        "Paladin": "yes"
+      },
+      "name": "Aura of Vitality",
+      "level": "3rd",
+      "id": "415"
+    },
+    {
+      "range": "30 feet",
+      "components": "VSM",
+      "time": "1 action",
+      "concentration": "yes",
+      "level": "1st",
+      "name": "Tasha's Hideous Laughter",
+      "school": "Enchantment",
+      "class": {
+        "Wizard": "yes",
+        "Bard": "yes"
+      },
+      "source": "phb 280",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "id": "416"
+    },
+    {
+      "time": "1 minute",
+      "concentration": "no",
+      "range": "30 feet",
+      "components": "VSM",
+      "source": "phb 229",
+      "duration": "Special",
+      "ritual": "no",
+      "name": "Creation",
+      "level": "5th",
+      "school": "Illusion",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Artificer": "yes"
+      },
+      "id": "417"
+    },
+    {
+      "range": "10 feet",
+      "components": "VS",
+      "concentration": "no",
+      "time": "1 action",
+      "name": "Poison Spray",
+      "level": "Cantrip",
+      "class": {
+        "Wizard": "yes",
+        "Druid": "yes",
+        "Sorcerer": "yes",
+        "Warlock": "yes",
+        "Artificer": "yes"
+      },
+      "school": "Conjuration",
+      "source": "phb 266",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "id": "418"
+    },
+    {
+      "class": {
+        "Cleric": "yes"
+      },
+      "school": "Evocation",
+      "level": "3rd",
+      "name": "Mass Healing Word",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "phb 258",
+      "components": "V",
+      "range": "60 feet",
+      "concentration": "no",
+      "time": "1 bonus action",
+      "id": "419"
+    },
+    {
+      "components": "VS",
+      "range": "Touch",
+      "concentration": "yes",
+      "time": "1 action",
+      "class": {
+        "Bard": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Illusion",
+      "name": "Greater Invisibility",
+      "level": "4th",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 246",
+      "id": "420"
+    },
+    {
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 216",
+      "class": {
+        "Paladin": "yes"
+      },
+      "school": "Abjuration",
+      "name": "Banishing Smite",
+      "level": "5th",
+      "time": "1 bonus action",
+      "concentration": "yes",
+      "components": "V",
+      "range": "Self",
+      "id": "421"
+    },
+    {
+      "source": "xge 163",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "level": "7th",
+      "name": "Power Word Pain",
+      "class": {
+        "Warlock": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Enchantment",
+      "concentration": "no",
+      "time": "1 action",
+      "range": "60 feet",
+      "components": "V",
+      "id": "422"
+    },
+    {
+      "name": "Druidcraft",
+      "level": "Cantrip",
+      "class": {
+        "Druid": "yes"
+      },
+      "school": "Transmutation",
+      "source": "phb 236",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "range": "30 feet",
+      "components": "VS",
+      "time": "1 action",
+      "concentration": "no",
+      "id": "423"
+    },
+    {
+      "school": "Conjuration",
+      "class": {
+        "Artificer": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "level": "2nd",
+      "name": "Web",
+      "ritual": "no",
+      "duration": "up to 1 hour",
+      "source": "phb 287",
+      "components": "VSM",
+      "range": "60 feet",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "424"
+    },
+    {
+      "range": "150 feet",
+      "components": "VSMgp",
+      "concentration": "no",
+      "time": "1 action",
+      "level": "6th",
+      "name": "Circle of Death",
+      "school": "Necromancy",
+      "class": {
+        "Sorcerer": "yes",
+        "Warlock": "yes",
+        "Wizard": "yes"
+      },
+      "source": "phb 221",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "id": "425"
+    },
+    {
+      "source": "phb 265",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "name": "Phantasmal Killer",
+      "level": "4th",
+      "school": "Illusion",
+      "class": {
+        "Wizard": "yes"
+      },
+      "concentration": "yes",
+      "time": "1 action",
+      "range": "120 feet",
+      "components": "VS",
+      "id": "426"
+    },
+    {
+      "range": "Touch",
+      "components": "VSMgp",
+      "time": "1 action",
+      "concentration": "no",
+      "name": "Continual Flame",
+      "level": "2nd",
+      "school": "Evocation",
+      "class": {
+        "Wizard": "yes",
+        "Artificer": "yes",
+        "Cleric": "yes"
+      },
+      "source": "phb 227",
+      "duration": "Until dispelled",
+      "ritual": "no",
+      "id": "427"
+    },
+    {
+      "duration": "8 hours",
+      "ritual": "no",
+      "source": "phb 263",
+      "class": {
+        "Wizard": "yes",
+        "Ranger": "yes",
+        "Bard": "yes"
+      },
+      "school": "Abjuration",
+      "name": "Nondetection",
+      "level": "3rd",
+      "time": "1 action",
+      "concentration": "no",
+      "components": "VSMgp",
+      "range": "Touch",
+      "id": "428"
+    },
+    {
+      "class": {
+        "Bard": "yes",
+        "Wizard": "yes",
+        "Druid": "yes",
+        "Sorcerer": "yes",
+        "Cleric": "yes",
+        "Warlock": "yes"
+      },
+      "school": "Enchantment",
+      "name": "Hold Person",
+      "level": "2nd",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 251",
+      "components": "VSM",
+      "range": "60 feet",
+      "concentration": "yes",
+      "time": "1 action",
+      "id": "429"
+    },
+    {
+      "range": "Touch",
+      "components": "VSM",
+      "time": "1 action",
+      "concentration": "no",
+      "level": "1st",
+      "name": "Goodberry",
+      "class": {
+        "Druid": "yes",
+        "Ranger": "yes"
+      },
+      "school": "Transmutation",
+      "source": "phb 246",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "id": "430"
+    },
+    {
+      "school": "Evocation",
+      "class": {
+        "Wizard": "yes",
+        "Druid": "yes",
+        "Sorcerer": "yes",
+        "Bard": "yes"
+      },
+      "level": "2nd",
+      "name": "Warding Wind",
+      "ritual": "no",
+      "duration": "10 minutes",
+      "source": "ee 23, xge 170",
+      "components": "V",
+      "range": "Self",
+      "time": "1 action",
+      "concentration": "yes",
+      "id": "431"
+    },
+    {
+      "concentration": "no",
+      "time": "1 action",
+      "range": "Touch",
+      "components": "VS",
+      "source": "phb 227",
+      "duration": "7 days",
+      "ritual": "no",
+      "name": "Contagion",
+      "level": "5th",
+      "school": "Necromancy",
+      "class": {
+        "Druid": "yes",
+        "Cleric": "yes"
+      },
+      "id": "432"
+    },
+    {
+      "name": "Jump",
+      "level": "1st",
+      "school": "Transmutation",
+      "class": {
+        "Ranger": "yes",
+        "Artificer": "yes",
+        "Sorcerer": "yes",
+        "Druid": "yes",
+        "Wizard": "yes"
+      },
+      "source": "phb 254",
+      "duration": "1 minute",
+      "ritual": "no",
+      "range": "Touch",
+      "components": "VSM",
+      "concentration": "no",
+      "time": "1 action",
+      "id": "433"
+    },
+    {
+      "school": "Enchantment",
+      "class": {
+        "Sorcerer": "yes",
+        "Druid": "yes"
+      },
+      "level": "4th",
+      "name": "Dominate Beast",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "source": "phb 234",
+      "components": "VS",
+      "range": "60 feet",
+      "time": "1 action",
+      "concentration": "yes",
+      "id": "434"
+    },
+    {
+      "source": "phb 276",
+      "duration": "up to 10 minutes",
+      "ritual": "no",
+      "name": "Silent Image",
+      "level": "1st",
+      "school": "Illusion",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Bard": "yes"
+      },
+      "concentration": "yes",
+      "time": "1 action",
+      "range": "60 feet",
+      "components": "VSM",
+      "id": "435"
+    },
+    {
+      "source": "xge 158",
+      "duration": "1 hour",
+      "ritual": "no",
+      "name": "Infernal Calling",
+      "level": "5th",
+      "school": "Conjuration",
+      "class": {
+        "Warlock": "yes",
+        "Wizard": "yes"
+      },
+      "concentration": "yes",
+      "time": "1 minute",
+      "range": "90 feet",
+      "components": "VSMgp",
+      "id": "436"
+    },
+    {
+      "school": "Evocation",
+      "class": {
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "level": "2nd",
+      "name": "Snilloc's Snowball Swarm",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "ee 22, xge 165",
+      "components": "VSM",
+      "range": "90 feet",
+      "concentration": "no",
+      "time": "1 action",
+      "id": "437"
+    },
+    {
+      "source": "ee 20, xge 160",
+      "ritual": "no",
+      "duration": "10 minutes",
+      "level": "6th",
+      "name": "Investiture of Wind",
+      "school": "Transmutation",
+      "class": {
+        "Druid": "yes",
+        "Wizard": "yes",
+        "Warlock": "yes",
+        "Sorcerer": "yes"
+      },
+      "time": "1 action",
+      "concentration": "yes",
+      "range": "Self",
+      "components": "VS",
+      "id": "438"
+    },
+    {
+      "range": "30 feet",
+      "components": "VSM",
+      "time": "1 action",
+      "concentration": "yes",
+      "level": "2nd",
+      "name": "Enlarge/Reduce",
+      "school": "Transmutation",
+      "class": {
+        "Wizard": "yes",
+        "Artificer": "yes",
+        "Sorcerer": "yes"
+      },
+      "source": "phb 237",
+      "ritual": "no",
+      "duration": "up to 1 minute",
+      "id": "439"
+    },
+    {
+      "range": "Touch",
+      "components": "S",
+      "concentration": "yes",
+      "time": "1 action",
+      "name": "Beast Sense",
+      "level": "2nd",
+      "school": "Divination",
+      "class": {
+        "Ranger": "yes",
+        "Druid": "yes"
+      },
+      "source": "phb 217",
+      "duration": "up to 1 hour",
+      "ritual": "yes",
+      "id": "440"
+    },
+    {
+      "range": "150 feet",
+      "components": "VSM",
+      "time": "1 action",
+      "concentration": "no",
+      "name": "Fireball",
+      "level": "3rd",
+      "school": "Evocation",
+      "class": {
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "source": "phb 241",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "id": "441"
+    },
+    {
+      "duration": "10 minutes",
+      "ritual": "no",
+      "source": "ee 20, xge 161",
+      "class": {
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Evocation",
+      "name": "Melf's Minute Meteors",
+      "level": "3rd",
+      "concentration": "yes",
+      "time": "1 action",
+      "components": "VSM",
+      "range": "Self",
+      "id": "442"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "VSM",
+      "range": "300 feet",
+      "duration": "up to 10 minutes",
+      "ritual": "no",
+      "source": "phb 227",
+      "school": "Transmutation",
+      "class": {
+        "Wizard": "yes",
+        "Druid": "yes",
+        "Cleric": "yes"
+      },
+      "name": "Control Water",
+      "level": "4th",
+      "id": "443"
+    },
+    {
+      "concentration": "yes",
+      "time": "1 action",
+      "components": "VS",
+      "range": "Self",
+      "ritual": "no",
+      "duration": "1 minute",
+      "source": "ee 21, xge 163",
+      "class": {
+        "Druid": "yes"
+      },
+      "school": "Abjuration",
+      "level": "6th",
+      "name": "Primordial Ward",
+      "id": "444"
+    },
+    {
+      "duration": "24 hours",
+      "ritual": "no",
+      "source": "phb 265",
+      "class": {
+        "Wizard": "yes",
+        "Druid": "yes",
+        "Cleric": "yes",
+        "Bard": "yes"
+      },
+      "school": "Abjuration",
+      "name": "Planar Binding",
+      "level": "5th",
+      "time": "1 hour",
+      "concentration": "no",
+      "components": "VSMgp",
+      "range": "60 feet",
+      "id": "445"
+    },
+    {
+      "name": "Snare",
+      "level": "1st",
+      "class": {
+        "Ranger": "yes",
+        "Artificer": "yes",
+        "Druid": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Abjuration",
+      "source": "xge 165",
+      "duration": "8 hours",
+      "ritual": "no",
+      "range": "Touch",
+      "components": "SMgp",
+      "concentration": "no",
+      "time": "1 minute",
+      "id": "446"
+    },
+    {
+      "ritual": "no",
+      "duration": "10 days",
+      "source": "phb 260",
+      "school": "Illusion",
+      "class": {
+        "Wizard": "yes",
+        "Druid": "yes",
+        "Bard": "yes"
+      },
+      "level": "7th",
+      "name": "Mirage Arcane",
+      "time": "10 minutes",
+      "concentration": "no",
+      "components": "VS",
+      "range": "Sight",
+      "id": "447"
+    },
+    {
+      "time": "1 bonus action",
+      "concentration": "no",
+      "components": "V",
+      "range": "Self",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "source": "phb 260",
+      "class": {
+        "Sorcerer": "yes",
+        "Warlock": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Conjuration",
+      "level": "2nd",
+      "name": "Misty Step",
+      "id": "448"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "VSM",
+      "range": "100 feet",
+      "duration": "up to 1 minute",
+      "ritual": "no",
+      "source": "phb 272",
+      "school": "Transmutation",
+      "class": {
+        "Druid": "yes",
+        "Wizard": "yes",
+        "Sorcerer": "yes"
+      },
+      "name": "Reverse Gravity",
+      "level": "7th",
+      "id": "449"
+    },
+    {
+      "components": "VS",
+      "range": "120 feet",
+      "concentration": "no",
+      "time": "1 action",
+      "school": "Necromancy",
+      "class": {
+        "Wizard": "yes",
+        "Warlock": "yes",
+        "Sorcerer": "yes"
+      },
+      "level": "Cantrip",
+      "name": "Chill Touch",
+      "ritual": "no",
+      "duration": "1 round",
+      "source": "phb 221",
+      "id": "450"
+    },
+    {
+      "time": "1 action",
+      "concentration": "no",
+      "range": "60 feet",
+      "components": "V",
+      "source": "phb 285",
+      "ritual": "no",
+      "duration": "Instantaneous",
+      "level": "Cantrip",
+      "name": "Vicious Mockery",
+      "class": {
+        "Bard": "yes"
+      },
+      "school": "Enchantment",
+      "id": "451"
+    },
+    {
+      "range": "Touch",
+      "components": "VS",
+      "time": "1 action",
+      "concentration": "no",
+      "name": "Spare the Dying",
+      "level": "Cantrip",
+      "school": "Necromancy",
+      "class": {
+        "Artificer": "yes",
+        "Cleric": "yes"
+      },
+      "source": "phb 277",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "id": "452"
+    },
+    {
+      "range": "Touch",
+      "components": "VSMgp",
+      "concentration": "no",
+      "time": "1 action",
+      "name": "Arcane Lock",
+      "level": "2nd",
+      "class": {
+        "Artificer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Abjuration",
+      "source": "phb 215",
+      "duration": "Until dispelled",
+      "ritual": "no",
+      "id": "453"
+    },
+    {
+      "source": "phb 224",
+      "duration": "Instantaneous",
+      "ritual": "yes",
+      "name": "Commune with Nature",
+      "level": "5th",
+      "school": "Divination",
+      "class": {
+        "Ranger": "yes",
+        "Druid": "yes"
+      },
+      "time": "1 minute",
+      "concentration": "no",
+      "range": "Self",
+      "components": "VS",
+      "id": "454"
+    },
+    {
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "source": "phb 266",
+      "school": "Transmutation",
+      "class": {
+        "Bard": "yes",
+        "Ranger": "yes",
+        "Druid": "yes"
+      },
+      "name": "Plant Growth",
+      "level": "3rd",
+      "concentration": "no",
+      "time": "1 action",
+      "components": "VS",
+      "range": "150 feet",
+      "id": "455"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "range": "120 feet",
+      "components": "VS",
+      "source": "phb 275",
+      "ritual": "yes",
+      "duration": "up to 10 minutes",
+      "level": "2nd",
+      "name": "Silence",
+      "school": "Illusion",
+      "class": {
+        "Cleric": "yes",
+        "Bard": "yes",
+        "Ranger": "yes"
+      },
+      "id": "456"
+    },
+    {
+      "range": "15 feet",
+      "components": "V",
+      "time": "1 action",
+      "concentration": "no",
+      "name": "Lightning Lure",
+      "level": "Cantrip",
+      "class": {
+        "Warlock": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes"
+      },
+      "school": "Evocation",
+      "source": "scag 143",
+      "duration": "Instantaneous",
+      "ritual": "no",
+      "id": "457"
+    },
+    {
+      "range": "Touch",
+      "components": "VSM",
+      "concentration": "no",
+      "time": "1 action",
+      "name": "Darkvision",
+      "level": "2nd",
+      "class": {
+        "Druid": "yes",
+        "Wizard": "yes",
+        "Sorcerer": "yes",
+        "Artificer": "yes",
+        "Ranger": "yes"
+      },
+      "school": "Transmutation",
+      "source": "phb 230",
+      "duration": "8 hours",
+      "ritual": "no",
+      "id": "458"
+    },
+    {
+      "school": "Transmutation",
+      "class": {
+        "Wizard": "yes",
+        "Artificer": "yes"
+      },
+      "name": "Tiny Servant",
+      "level": "3rd",
+      "duration": "8 hours",
+      "ritual": "no",
+      "source": "xge 168",
+      "components": "VS",
+      "range": "Touch",
+      "time": "1 minute",
+      "concentration": "no",
+      "id": "459"
+    },
+    {
+      "time": "1 action",
+      "concentration": "yes",
+      "components": "VSM",
+      "range": "Touch",
+      "duration": "up to 1 hour",
+      "ritual": "no",
+      "source": "phb 254",
+      "class": {
+        "Artificer": "yes",
+        "Warlock": "yes",
+        "Sorcerer": "yes",
+        "Wizard": "yes",
+        "Bard": "yes"
+      },
+      "school": "Illusion",
+      "name": "Invisibility",
+      "level": "2nd",
+      "id": "460"
+    }
+  ]
 }
