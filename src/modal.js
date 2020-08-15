@@ -1,36 +1,35 @@
-import { buttonElement, formElement } from './components'
+import { buttonElement, formElement, loadForm } from './components'
 
-export const showModal = () => {
+export const showModal = data => {
   const modal = document.querySelector('.modal')
   modal.classList.add('modal-show')
-  const scrollY = window.scrollY
-  document.body.style.position = 'fixed'
-  document.body.style.top = `-${scrollY}px`
+  const modalContent = modal.firstChild
+  const oldForm = document.querySelector('#modal-form')
+  if (oldForm) {
+    modalContent.replaceChild(formElement(data), oldForm)
+  } else {
+    modalContent.appendChild(formElement(data))
+  }
 }
 
 export const hideModal = () => {
   const modal = document.querySelector('.modal')
   modal.classList.remove('modal-show')
-  const scrollY = document.body.style.top
-  document.body.style.position = ''
-  document.body.style.top = ''
-  window.scrollTo(0, parseInt(scrollY || '0') * -1)
-  window.location.href = '#'
 }
 
 export const generateModal = () => {
   const modal = document.createElement('div')
   modal.className = 'modal'
-  const modalContent = document.createElement('div')
-  modalContent.className = 'modal-content'
-  const button = buttonElement('x', () => hideModal())
-  modalContent.appendChild(button)
+  document.onkeydown = e => {
+    if (e.keyCode === 27) hideModal()
+  }
   modal.onclick = e => {
     if (e.target !== modal) return
     hideModal()
   }
-  const form = formElement()
-  modalContent.appendChild(form)
+  const modalContent = document.createElement('div')
+  modalContent.className = 'modal-content'
+  modalContent.appendChild(buttonElement('x', () => hideModal()))
   modal.appendChild(modalContent)
   document.body.appendChild(modal)
 }

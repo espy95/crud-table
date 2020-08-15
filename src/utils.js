@@ -10,14 +10,9 @@ export const getParams = () => {
   const parser = document.createElement('a')
   parser.href = window.location.href
   const queries = parser.search.substring(1).split('&')
-	console.log("​getParams -> queries", queries)
   for (const param of queries) {
     const pair = param.split('=')
     params[pair[0]] = decodeURIComponent(pair[1])
   }
   return params
-}
-
-export const route = (id) => () => {
-  window.location.href = '#id=' + id
 }

@@ -13,29 +13,14 @@ document.title = TITLE
 
 window.onhashchange = async () => {
   console.log(window.location.href)
-  const id = utils.getId()
-  console.log('id', id)
-  if (id) {
-    const data = await api.getRequest(id)
-		console.log("​window.onhashchange -> data", data)
-    edit(data)
-  }
 }
 
 const init = async () => {
-  document.onkeydown = e => {
-    if (e.keyCode === 27) hideModal()
-  }
   const data = await api.getRequest()
+  const params = utils.getParams()
+	console.log("​params", params)
   generateTable(data)
   generateModal()
-}
-
-export const edit = data => {
-  console.group('edit spell')
-  console.log('data', data)
-  showModal()
-  console.groupEnd()
 }
 
 init()

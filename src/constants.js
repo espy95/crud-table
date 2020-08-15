@@ -1,12 +1,11 @@
 export const TITLE = 'Spells'
-export const URL = 'http://localhost:3000/spells/'
+export const URL = 'http://localhost:3000/spells'
 
 export const COLUMNS = [
   'id',
   'name',
   'level',
   'school',
-  'components',
   'time',
   'ritual',
   'concentration',
