@@ -1,5 +1,5 @@
 import { COLUMNS } from './constants'
-import { edit } from './index'
+import { route } from './utils'
 import { buttonElement } from './components'
 
 const generateTableContent = (table, data) => {
@@ -11,7 +11,7 @@ const generateTableContent = (table, data) => {
       cell.innerText = element[column]
     }
     const cell = row.insertCell()
-    const button = buttonElement('edit', () => edit(element))
+    const button = buttonElement('edit', route(element.id))
     cell.appendChild(button)
   }
 }

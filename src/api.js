@@ -1,7 +1,7 @@
 import { URL } from './constants'
 
-export const getRequest = () => {
-  return fetch(URL)
+export const getRequest = id => {
+  return fetch(URL + (id ? id : ''))
     .then(res => res.json())
     .catch(error => console.log(error))
 }
@@ -20,7 +20,7 @@ export const postRequest = data => {
 }
 
 export const deleteRequest = id => {
-  return fetch(URL + '/' + id, {
+  return fetch(URL + id, {
     method: 'DELETE',
     headers: {
       'Content-Type': 'application/json',

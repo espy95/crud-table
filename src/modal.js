@@ -1,4 +1,4 @@
-import { buttonElement } from './components'
+import { buttonElement, formElement } from './components'
 
 export const showModal = () => {
   const modal = document.querySelector('.modal')
@@ -29,6 +29,8 @@ export const generateModal = () => {
     if (e.target !== modal) return
     hideModal()
   }
+  const form = formElement()
+  modalContent.appendChild(form)
   modal.appendChild(modalContent)
   document.body.appendChild(modal)
 }

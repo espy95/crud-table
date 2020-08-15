@@ -1,5 +1,5 @@
 export const TITLE = 'Spells'
-export const URL = 'http://localhost:3000/spells'
+export const URL = 'http://localhost:3000/spells/'
 
 export const COLUMNS = [
   'id',

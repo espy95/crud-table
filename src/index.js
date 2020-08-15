@@ -3,7 +3,6 @@ import * as utils from './utils'
 import { TITLE } from './constants'
 import { generateTable } from './table'
 import { generateModal, showModal, hideModal } from './modal'
-import { formElement } from './components'
 
 const link = document.createElement('link')
 link.rel = 'stylesheet'
@@ -12,7 +11,16 @@ link.href = 'style.css'
 document.head.appendChild(link)
 document.title = TITLE
 
-window.onhashchange = () => console.log('#', window.location.href)
+window.onhashchange = async () => {
+  console.log(window.location.href)
+  const id = utils.getId()
+  console.log('id', id)
+  if (id) {
+    const data = await api.getRequest(id)
+		console.log("​window.onhashchange -> data", data)
+    edit(data)
+  }
+}
 
 const init = async () => {
   document.onkeydown = e => {
@@ -21,28 +29,12 @@ const init = async () => {
   const data = await api.getRequest()
   generateTable(data)
   generateModal()
-  // const params = utils.getParams(window.location.href)
-  // console.log('params', params)
-  const id = utils.getId()
-  console.log('id', id)
-  console.log('​data', data)
-  if (id) edit(data)
 }
 
 export const edit = data => {
-  window.location.href = '#id=' + data.id
-  showModal()
-  const modalContent = document.querySelector('.modal-content')
-  console.group('editing spell')
+  console.group('edit spell')
   console.log('data', data)
-  const form = formElement()
-  form.id = 'modal-form'
-  const oldForm = document.getElementById('modal-form')
-  if (oldForm) {
-    modalContent.replaceChild(form, oldForm)
-  } else {
-    modalContent.appendChild(form)
-  }
+  showModal()
   console.groupEnd()
 }
 

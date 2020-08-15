@@ -17,3 +17,7 @@ export const getParams = () => {
   }
   return params
 }
+
+export const route = (id) => () => {
+  window.location.href = '#id=' + id
+}
