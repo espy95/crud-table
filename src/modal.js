@@ -1,4 +1,4 @@
-import { buttonElement, formElement, loadForm } from './components'
+import { buttonElement, formElement } from './components'
 
 export const showModal = data => {
   const modal = document.querySelector('.modal')

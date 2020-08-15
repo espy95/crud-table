@@ -17,7 +17,7 @@ const generateTableContent = (table, data) => {
         cell.innerText = 'no'
     }
     const cell = row.insertCell()
-    cell.className = 'no-padding'
+    cell.className = 'action'
     cell.appendChild(buttonElement('edit', () => showModal(element)))
   }
 }
@@ -30,7 +30,10 @@ const generateTableHead = table => {
     th.innerText = column
     row.appendChild(th)
   }
-  row.appendChild(document.createElement('th'))
+  const th = document.createElement('th')
+  th.className = 'action'
+  th.appendChild(buttonElement('create', () => showModal()))
+  row.appendChild(th)
 }
 
 export const generateTable = data => {

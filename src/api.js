@@ -9,7 +9,24 @@ export const getRequest = id => {
 export const postRequest = data => {
   return fetch(URL, {
     method: 'POST',
-    body: JSON.stringify(data),
+    body: JSON.stringify(
+      Object.fromEntries(new FormData(document.getElementById('modal-form')))
+    ),
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  })
+    .then(res => res.json())
+    .then(res => console.log('post', res))
+    .catch(error => console.log(error))
+}
+
+export const patchRequest = id => {
+  return fetch(URL + '/' + id, {
+    method: 'PATCH',
+    body: JSON.stringify(
+      Object.fromEntries(new FormData(document.getElementById('modal-form')))
+    ),
     headers: {
       'Content-Type': 'application/json',
     },

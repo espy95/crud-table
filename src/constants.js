@@ -1,8 +1,8 @@
 export const TITLE = 'Spells'
+export const HEADING = 'D&D 5e Spells Table'
 export const URL = 'http://localhost:3000/spells'
 
 export const COLUMNS = [
-  'id',
   'name',
   'level',
   'school',

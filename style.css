@@ -3,6 +3,11 @@
   font-size: 16px;
 }
 
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
 table {
   margin: auto;
 }
@@ -24,7 +29,7 @@ td {
   text-align: center;
 }
 
-button {
+button, .submit {
   font-family: monospace;
   text-transform: uppercase;
   border: none;
@@ -121,15 +126,15 @@ fieldset {
   background-color: rgba(33, 150, 243, 1);
 }
 
-.save {
+.submit, .create {
   background-color: rgba(76, 175, 80, 0.8);
 }
 
-.save:hover {
+.submit:hover, .create:hover {
   background-color: rgba(76, 175, 80, 1);
 }
 
-.save, .delete {
+.submit, .delete {
   width: 50%;
   font-size: 16px;
 }
@@ -155,6 +160,6 @@ fieldset {
   background-color: rgba(230, 230, 230, 0.8);
 }
 
-.no-padding {
+.action {
   padding: 0;
 }
