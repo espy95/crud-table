@@ -1,5 +1,5 @@
 * {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 16px;
 }
 
@@ -29,7 +29,8 @@ td {
   text-align: center;
 }
 
-button, .submit {
+button,
+.submit {
   font-family: monospace;
   text-transform: uppercase;
   border: none;
@@ -88,11 +89,18 @@ fieldset {
   visibility: visible;
 }
 
+@media (max-width: 768px) {
+  .modal-content {
+    transform: scale(3);
+    width: 300px;
+    margin-top: 30vh;
+  }
+}
+
 .modal-content {
-  position: relative;
-  top: 20%;
+  border-radius: 5px;
   margin: auto;
-  width: 300px;
+  width: 50%;
   z-index: 2000;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -126,16 +134,20 @@ fieldset {
   background-color: rgba(33, 150, 243, 1);
 }
 
-.submit, .create {
+.submit,
+.create {
   background-color: rgba(76, 175, 80, 0.8);
 }
 
-.submit:hover, .create:hover {
+.submit:hover,
+.create:hover {
   background-color: rgba(76, 175, 80, 1);
 }
 
-.submit, .delete {
-  width: 50%;
+.submit,
+.delete,
+.share {
+  width: 33.333333%;
   font-size: 16px;
 }
 
@@ -162,4 +174,12 @@ fieldset {
 
 .action {
   padding: 0;
+}
+
+.share {
+  background-color: rgba(63, 81, 181, 0.8);
+}
+
+.share:hover {
+  background-color: rgba(63, 81, 181, 1);
 }
