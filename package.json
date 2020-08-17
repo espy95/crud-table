@@ -20,7 +20,8 @@
   "scripts": {
     "start": "concurrently -k \"npm run dev\" \"npm run db\"",
     "dev": "webpack-dev-server --mode=development",
-    "db": "json-server --watch db.json"
+    "db": "json-server --watch db.json",
+    "build": "webpack-dev-server --mode=production"
   },
   "keywords": [],
   "author": "",

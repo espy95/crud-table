@@ -9,9 +9,7 @@ export const getRequest = id => {
 export const postRequest = data => {
   return fetch(URL, {
     method: 'POST',
-    body: JSON.stringify(
-      Object.fromEntries(new FormData(document.getElementById('modal-form')))
-    ),
+    body: JSON.stringify(data),
     headers: {
       'Content-Type': 'application/json',
     },
@@ -21,12 +19,10 @@ export const postRequest = data => {
     .catch(error => console.log(error))
 }
 
-export const patchRequest = id => {
+export const patchRequest = (data, id) => {
   return fetch(URL + '/' + id, {
     method: 'PATCH',
-    body: JSON.stringify(
-      Object.fromEntries(new FormData(document.getElementById('modal-form')))
-    ),
+    body: JSON.stringify(data),
     headers: {
       'Content-Type': 'application/json',
     },

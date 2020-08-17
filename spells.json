@@ -293,6 +293,25 @@
       "id": "16"
     },
     {
+      "concentration": "yes",
+      "time": "1 action",
+      "range": "Touch",
+      "components": "VSM",
+      "source": "phb 277",
+      "duration": "up to 1 hour",
+      "ritual": "no",
+      "name": "Spider Climb",
+      "level": "2nd",
+      "school": "Transmutation",
+      "class": {
+        "Wizard": "yes",
+        "Warlock": "yes",
+        "Artificer": "yes",
+        "Sorcerer": "yes"
+      },
+      "id": "17"
+    },
+    {
       "duration": "1 hour",
       "ritual": "no",
       "source": "phb 267",

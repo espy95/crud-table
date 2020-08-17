@@ -1,3 +1,3 @@
 # CRUD JavaScript Table
 
-[GitHub Page](https://espy95.github.io/crud-table/)
+Application uses [json-server](https://github.com/typicode/json-server) as backend.

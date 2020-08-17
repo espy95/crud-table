@@ -1,5 +1,5 @@
 import { COLUMNS, OPTIONS } from './constants'
-import * as api from './api'
+import { onSubmit } from './utils'
 
 export const buttonElement = (name, onClick) => {
   const button = document.createElement('button')
@@ -13,8 +13,14 @@ export const buttonElement = (name, onClick) => {
 export const formElement = data => {
   const form = document.createElement('form')
   form.id = 'modal-form'
-  form.className = 'modal-form'
   const fieldset = document.createElement('fieldset')
+  if (data && data.id) {
+    const id = document.createElement('input')
+    id.name = 'id'
+    id.value = data.id
+    id.className = 'hidden'
+    fieldset.appendChild(id)
+  }
   for (const column of COLUMNS) {
     const label = document.createElement('label')
     label.className = 'field-label'
@@ -23,17 +29,8 @@ export const formElement = data => {
     fieldset.appendChild(input(column, data ? data[column] : ''))
   }
   form.appendChild(fieldset)
-  form.onsubmit = async () => {
-    const formData = Object.fromEntries(new FormData(form))
-    console.log('​formData', formData)
-    if (data) {
-      api.patchRequest(data.id)
-    } else {
-      api.postRequest()
-    }
-  }
-  form.appendChild(input('submit'))
-  form.appendChild(buttonElement('delete', () => api.deleteRequest(data.id)))
+  form.appendChild(buttonElement('submit', onSubmit(data)))
+  form.appendChild(buttonElement('share', () => {}))
   return form
 }
 
@@ -46,7 +43,6 @@ export const input = (field, initial) => {
       input.name = field
       input.type = 'text'
       input.value = initial
-      input.required = true
       return input
     }
     case 'level':
@@ -60,7 +56,7 @@ export const input = (field, initial) => {
         option.id = 'option-' + field + '-' + value
         option.value = value
         option.innerText = value
-        // if (value === initial) option.selected = 'selected'
+        if (value === initial) option.selected = 'selected'
         select.appendChild(option)
       }
       return select
@@ -73,12 +69,6 @@ export const input = (field, initial) => {
       input.type = 'checkbox'
       input.value = 'yes'
       input.checked = initial === 'yes'
-      return input
-    }
-    case 'submit': {
-      const input = document.createElement('input')
-      input.type = 'submit'
-      input.className = 'submit'
       return input
     }
   }

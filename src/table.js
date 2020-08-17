@@ -1,6 +1,7 @@
 import { COLUMNS } from './constants'
 import { showModal } from './modal'
 import { buttonElement } from './components'
+import { onDelete } from './utils'
 
 const generateTableContent = (table, data) => {
   for (const element of data) {
@@ -16,9 +17,12 @@ const generateTableContent = (table, data) => {
       )
         cell.innerText = 'no'
     }
-    const cell = row.insertCell()
-    cell.className = 'action'
-    cell.appendChild(buttonElement('edit', () => showModal(element)))
+    const editCell = row.insertCell()
+    const deleteCell = row.insertCell()
+    editCell.className = 'action'
+    deleteCell.className = 'action'
+    editCell.appendChild(buttonElement('edit', () => showModal(element)))
+    deleteCell.appendChild(buttonElement('delete', onDelete(element.id)))
   }
 }
 
@@ -32,6 +36,7 @@ const generateTableHead = table => {
   }
   const th = document.createElement('th')
   th.className = 'action'
+  th.colSpan = 2
   th.appendChild(buttonElement('create', () => showModal()))
   row.appendChild(th)
 }
